@@ -3,6 +3,7 @@
 require_once 'includes/navigation_functions.php';
 require_once 'includes/metadata_functions.php';
 ?>
+
 <!DOCTYPE html>
 
 
@@ -17,7 +18,22 @@ require_once 'includes/metadata_functions.php';
     <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
-    
+     
+     <!-- Tabs -->
+    <script type="text/javascript">
+    $( document ).ready()
+    $('#buttons a[href="#gallery"]').tab('show') // Select tab by name
+	$('#buttons a[href="#buttons"]').tab('show') // Select tab by name
+    $('#contents a[href="#contents"]').tab('show') // Select tab by name  
+</script>    
+    <!-- End Tabs -->
+     
+     
+     <script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+  </script>
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -27,7 +43,7 @@ require_once 'includes/metadata_functions.php';
         HAS_SOURCE:  true
       };
     </script>
-    <script type="text/javascript" src="js/tabs.min.js"></script>
+<script type="text/javascript" src="js/tabs.min.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -35,9 +51,13 @@ require_once 'includes/metadata_functions.php';
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <!-- <link rel="author" title="About these documents" href="#" />
+    <link rel="top" title="Chelsea School Mobile" href="index.php" />
+    <link rel="next" title="Meet Chelsea School" href="meet.php" />
+    <link rel="prev" title="Chelsea School" href="index.php" />
     <link rel="author" title="About these documents" href="about.php" />
     <link rel="top" title="Chelsea School Mobile" href="#" />
-    <link rel="next" title="About Chelsea School" href="about.php" />
+    <link rel="next" title="About Chelsea School" href="about.php" />-->
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -47,7 +67,7 @@ require_once 'includes/metadata_functions.php';
   </head>
   <body>
 
-  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+<div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -135,16 +155,18 @@ require_once 'includes/metadata_functions.php';
   <div class="row">
     <div class="col-md-12">
     <!-- Nav tabs -->
-	<div class="nav">
+<div class="nav">
 	<ul class="nav nav-tabs">
+ 		 
  		 <li class="active"><a href="#buttons" data-toggle="tab">Main Menu</a></li>
- 		 <li><a href="#contents" data-toggle="tab">Detailed Contents</a></li>
-		  
-		  
+ 		 <li><a href="#contents" data-toggle="tab">Contents</a></li>	  
+		<!--  <li><a href="#gallery" data-taggle="tab">Gallery</a></li>-->
 	</ul>
-	</div>
+</div>
  <!-- end tabs -->
  <div class="tab-content">
+
+
  <div class="tab-pane active" id="buttons">
  
 <p align=center><img src="http://placehold.it/350x150"></p>
@@ -200,12 +222,16 @@ require_once 'includes/metadata_functions.php';
 <li><a class="reference internal" href="search.php"><em>Search Page</em></a></li>
 </ul>
 </div>
+
+
+
+
 </div>
-</div>
-    </div>
+
+    
       
-  </div>
-</div>
+  
+
 <footer class="footer">
   <div class="container">
     <p class="pull-right">
@@ -217,14 +243,6 @@ require_once 'includes/metadata_functions.php';
     </p>
   </div>
 </footer>
-<!-- Tabs -->
-    <script type="text/javascript">
-    $( document ).ready()
-	$('#buttons a[href="#buttons"]').tab('show') // Select tab by name
-    $('#contents a[href="#contents"]').tab('show') // Select tab by name
-    
-    
-</script>    
-    <!-- End Tabs -->
+
   </body>
 </html>

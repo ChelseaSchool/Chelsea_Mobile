@@ -1,0 +1,12 @@
+===========
+Calendars
+===========
+
+`Academic Calendar <http://google.com/calendar>`_
+=================================================
+
+`Athletic Calendar <http://google.com/calendar>`_
+=================================================
+
+`Events Calendar <http://google.com/calendar>`_
+================================================

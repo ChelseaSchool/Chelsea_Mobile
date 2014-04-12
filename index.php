@@ -91,10 +91,13 @@ require_once 'includes/metadata_functions.php';
 
  <div class="tab-pane active" id="buttons">
  
-<p align=center><img src="http://placehold.it/350x150"></p>
+<p align=center><img src="http://placehold.it/640x480&text=Tremendous+Promo+Shot+or+Logo"></p>
+
 <a type="button" class="btn btn-primary btn-lg btn-block" name="buttons" type="button" href="about.php">About Chelsea School</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="meet.php">Meet Chelsea</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="admissions.php">Admissions</a>
+	
+	
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="family.php">Families</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="calendar.php">Calendars</a> 
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="gallery.php">Gallery</a>

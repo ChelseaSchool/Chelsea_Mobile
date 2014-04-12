@@ -11,14 +11,7 @@ require_once 'includes/metadata_functions.php';
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <title>Chelsea School &mdash; Chelsea School Mobile</title>
-    <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+   
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -28,17 +21,7 @@ require_once 'includes/metadata_functions.php';
         HAS_SOURCE:  true
       };
     </script>
-    <script type="text/javascript" src="js/tabs.min.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
-    <link rel="author" title="About these documents" href="about.php" />
-    <link rel="top" title="Chelsea School Mobile" href="#" />
-    <link rel="next" title="About Chelsea School" href="about.php" />
+   <?php write_depends(); ?>
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -52,13 +35,16 @@ require_once 'includes/metadata_functions.php';
 </script>
   </head>
   <body>
-  <?php write_top_navbar(); ?>
+<?php write_top_navbar(); ?>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
  
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="http://placehold.it/1080x760" alt="" />
       <div class="carousel-caption">
          <h1>Promo: Maths &amp; Sciences</h1>
               <p>Promotional Copy/Caption</p>
@@ -66,7 +52,7 @@ require_once 'includes/metadata_functions.php';
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="http://placehold.it/1080x760" alt="" />
      <div class="carousel-caption">
          <h1>Promo Image: Literacy</h1>
               <p>Promotional Copy/Caption</p>
@@ -74,7 +60,7 @@ require_once 'includes/metadata_functions.php';
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="http://placehold.it/1080x760" alt="" />
       <div class="carousel-caption">
          <h1>Promo Image: Technology</h1>
               <p>Promotional Copy/Caption</p>
@@ -82,7 +68,7 @@ require_once 'includes/metadata_functions.php';
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="http://placehold.it/1080x760" alt="" />
       <div class="carousel-caption">
          <h1>Promo Image: Student Life</h1>
               <p>Promotional Copy/Caption</p>
@@ -97,7 +83,7 @@ require_once 'includes/metadata_functions.php';
 </div><!-- /.carousel -->
 
 
-
+</div></div></div>
 <footer class="footer">
   <div class="container">
     <p hidden align="center"><a class="btn btn-lg btn-primary" href="index.php" role="button">Welcome to Chelsea School</a></p>
@@ -110,8 +96,8 @@ require_once 'includes/metadata_functions.php';
     </p>
   </div>
 </footer>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="_static/js/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>-->
 </body>
 </html>

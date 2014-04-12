@@ -19,8 +19,14 @@ require_once 'includes/metadata_functions.php';
 <?php write_top_padding(); ?>
   </head>
   <body>
-<?php write_top_navbar(); ?>    
+<?php write_top_navbar(); ?> 
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
 <p>Imagine marketing content here.</p>
+
+</div></div></div>
 <?php write_footer(); ?>
 </body>
 </html>

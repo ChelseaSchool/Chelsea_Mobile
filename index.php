@@ -91,7 +91,7 @@ require_once 'includes/metadata_functions.php';
 
  <div class="tab-pane active" id="buttons">
  
-<p align=center><img src="http://placehold.it/640x480&text=Tremendous+Promo+Shot+or+Logo"></p>
+<p align=center><a href="gallery.php"><img src="http://placehold.it/1080x760&text=Tremendous+Promo+Shot+or+Logo"></a></p>
 
 <a type="button" class="btn btn-primary btn-lg btn-block" name="buttons" type="button" href="about.php">About Chelsea School</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="meet.php">Meet Chelsea</a>
@@ -100,7 +100,7 @@ require_once 'includes/metadata_functions.php';
 	
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="family.php">Families</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="calendar.php">Calendars</a> 
-<a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="gallery.php">Gallery</a>
+<!-- <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="gallery.php">Gallery</a> -->
 </div>
  
 <div class="tab-pane" id="contents">     

@@ -54,46 +54,45 @@ require_once 'includes/metadata_functions.php';
   <body>
   <?php write_top_navbar(); ?>
 
- <!--  Carousel - consult the Twitter Bootstrap docs at
-      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+ 
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-         <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              
+         <h1>Promo: Maths &amp; Sciences</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
      <div class="carousel-caption">
-         <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              
+         <h1>Promo Image: Literacy</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-         <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              
+         <h1>Promo Image: Technology</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-         <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              
+         <h1>Promo Image: Student Life</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
       </div>
     </div>
   </div><!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
-    <<a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#this-carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div><!-- /.carousel -->
 
@@ -101,12 +100,12 @@ require_once 'includes/metadata_functions.php';
 
 <footer class="footer">
   <div class="container">
-    <p align="center"><a class="btn btn-lg btn-primary" href="main.php" role="button">Welcome to Chelsea School</a></p>
+    <p hidden align="center"><a class="btn btn-lg btn-primary" href="index.php" role="button">Welcome to Chelsea School</a></p>
     <p class="pull-right">
       <a hidden href="#">Back to top</a>
       
     </p>
-    <p hidden>
+    <p>
         &copy; Copyright 2014, Chelsea School.<br/>
     </p>
   </div>

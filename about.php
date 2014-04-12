@@ -10,7 +10,7 @@ require_once 'includes/metadata_functions.php';
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>About Chelsea School &mdash; Chelsea School Mobile</title>
+    <title>About Chelsea School</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -46,6 +46,12 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 <?php write_bottom_padding(); ?>
 <?php write_top_padding(); ?>
+   <script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+  
   </head>
   <body>
 
@@ -60,6 +66,7 @@ require_once 'includes/metadata_functions.php';
  		 <li><a href="#philosophy" data-toggle="tab">Philosophy</a></li>
 		  <li><a href="#history" data-toggle="tab">History</a></li>
 		  <li><a href="#news" data-toggle="tab">News</a></li>
+		  <li><a href="#gallery" data-toggle="tab">Gallery</a></li>
 	</ul>
 	</div>
 <div class="tab-content">   
@@ -88,8 +95,53 @@ require_once 'includes/metadata_functions.php';
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat sit amet felis mollis tempor. Nullam fringilla, quam a sollicitudin malesuada, orci turpis bibendum risus, mollis placerat augue nulla at purus. Etiam faucibus consequat porttitor. Praesent venenatis urna id erat dapibus lacinia. Maecenas blandit mollis nibh, non pellentesque eros semper eu. Aliquam blandit blandit fermentum. Vivamus in urna porttitor, facilisis neque sed, mollis libero. Cras semper mauris nec sollicitudin dictum. Donec nec facilisis tellus. Quisque volutpat sem nisl, quis congue arcu condimentum id. Nam viverra, ligula et auctor ullamcorper, lectus purus commodo velit, vel tempor nulla urna eu tellus. Sed bibendum felis sed ante volutpat, in hendrerit enim hendrerit. Nulla blandit ultricies leo a tincidunt.</p>
 <p>Nulla non justo est. Suspendisse vitae odio odio. Phasellus in accumsan lorem. Morbi faucibus nulla ac nisi porttitor hendrerit et sed nisl. Sed consectetur ullamcorper commodo. Fusce magna urna, scelerisque eu tincidunt ut, laoreet sit amet leo. Pellentesque tristique odio sem, vel semper justo eleifend vel. Sed gravida adipiscing fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec faucibus aliquet nibh, a congue leo sollicitudin vitae. Nullam tristique imperdiet dignissim. Praesent porttitor felis et magna pharetra, eu lobortis sapien posuere. Praesent tincidunt magna felis. Mauris et porttitor justo. Nunc ipsum ante, pharetra sed viverra eu, vestibulum non risus.</p>
 <p>Phasellus eleifend quam ornare dolor semper, ac tempus purus accumsan. Vivamus a felis tincidunt, dapibus sem fermentum, auctor felis. Vivamus in orci nulla. In sed auctor est, sit amet elementum lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut vestibulum magna volutpat, dignissim turpis ut, egestas tortor. Morbi eleifend varius augue, non consectetur tortor iaculis non. In volutpat, justo ac ultricies rhoncus, risus nisi suscipit nunc, ac tristique velit metus eu purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec et tincidunt tellus, et auctor est. Nullam eu diam id felis pretium pretium nec ac urna. Donec at suscipit erat. Vivamus nunc nisi, scelerisque id suscipit vel, rhoncus sed orci.</p>
-
 </div>
+
+<div class="tab-pane" id="gallery">
+ <!--  Carousel - consult the Twitter Bootstrap docs at
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+         <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+     <div class="carousel-caption">
+         <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+         <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+         <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
+      </div>
+    </div>
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#this-carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div><!-- /.carousel -->
+</div><!-- END Gallery Tab -->
+
 
 </div>
     </div>
@@ -109,7 +161,7 @@ require_once 'includes/metadata_functions.php';
     </p>
   </div>
 </footer>
-<?php write_bottom_navbar(); ?>
+
 
 <!-- Tabs -->
     <script type="text/javascript">

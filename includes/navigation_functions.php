@@ -1,9 +1,17 @@
 <?php
 
+/** @file
+ *  @brief html write functions mostly
+ *  @todo 
+ *  1. create modal for copyright click that gives about info
+ *  2. rename this file and refactor
+ *  3. recreate bottom navbar so it's an icon toolbar
+ *  4. Comment on functions
+ */
 function write_top_navbar() {
 	$top= <<<EOF
 	
-<div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+<div id="topnavbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -106,7 +114,7 @@ EOF;
 
 function write_bottom_navbar() {
 	$bottom = <<<EOF
-<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+<nav id="bottom-navbar" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
         	<!-- .btn-navbar is used as the toggle for collapsed navbar content -->

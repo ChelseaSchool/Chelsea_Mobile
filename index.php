@@ -1,4 +1,14 @@
 <?php 
+/** @file
+ *  @brief Main landing page
+ *  @detail
+ *  Provides access to primary navigation, contents, perhaps search
+ *  @todo
+ *  1. install icon (jQuery Mobile)
+ *  2. Move from block buttons to icon panel for sections
+ *  3. Request desktop site?
+ *
+ */
 
 require_once 'includes/navigation_functions.php';
 require_once 'includes/metadata_functions.php';
@@ -91,13 +101,42 @@ require_once 'includes/metadata_functions.php';
 
  <div class="tab-pane active" id="buttons">
  
-<p align=center><a href="gallery.php"><img src="http://placehold.it/1080x760&text=Tremendous+Promo+Shot+or+Logo"></a></p>
+ <div class="row">
+    <div class="col-md-6">
+        <!--Left column of content-->
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="about.php">
+          <span class="glyphicon glyphicon-star"></span> About Chelsea School
+        </a>
+
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="Meet Chelsea School">
+          <span class="glyphicon glyphicon-star"></span> Meet Chelsea School
+        </a>        
+
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="Admissions">
+          <span class="glyphicon glyphicon-star"></span> Admissions
+        </a>                
+    </div><!--End column-->
+
+    <div class="col-md-6">
+        <!--Right column of content-->
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="family.php">
+          <span class="glyphicon glyphicon-star"></span> Families &amp; Students
+        </a>
+
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="calendar.php">
+          <span class="glyphicon glyphicon-star"></span> Calendars
+        </a>        
+
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="gallery.php">
+          <span class="glyphicon glyphicon-star"></span> Media Gallery
+        </a>                
+    </div><!--End column-->
+</div><!--end row-->
+<!--<p align=center><a href="gallery.php"><img src="http://placehold.it/1080x760&text=Tremendous+Promo+Shot+or+Logo"></a></p>
 
 <a type="button" class="btn btn-primary btn-lg btn-block" name="buttons" type="button" href="about.php">About Chelsea School</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="meet.php">Meet Chelsea</a>
-<a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="admissions.php">Admissions</a>
-	
-	
+<a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="admissions.php">Admissions</a>	
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="family.php">Families</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="calendar.php">Calendars</a> 
 <!-- <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="gallery.php">Gallery</a> -->

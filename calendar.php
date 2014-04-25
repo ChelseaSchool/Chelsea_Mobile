@@ -57,13 +57,13 @@ require_once 'includes/metadata_functions.php';
   <div class="section" id="calendars">
 <h1>Calendars<a class="headerlink" href="#calendars" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id1">
-<h2><a class="reference external" href="http://google.com/calendar">Academic Calendar</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<h2><a class="reference external" href="http://google.com/calendar"><i class="fa fa-external-link"></i> Academic Calendar</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id2">
-<h2><a class="reference external" href="http://google.com/calendar">Athletic Calendar</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2><a class="reference external" href="http://google.com/calendar"><i class="fa fa-external-link"></i> Athletic Calendar</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id3">
-<h2><a class="reference external" href="http://google.com/calendar">Events Calendar</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2><a class="reference external" href="http://google.com/calendar"><i class="fa fa-external-link"></i> Events Calendar</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 

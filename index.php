@@ -40,7 +40,9 @@ require_once 'includes/metadata_functions.php';
 </script>    
 <!-- End Tabs -->
      
-     
+<!-- FontAwesome Resources -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    
  
 <!-- jQuery Resources -->
 <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
@@ -72,6 +74,7 @@ require_once 'includes/metadata_functions.php';
     <link rel="author" title="About these documents" href="about.php" />
     <link rel="top" title="Chelsea School Mobile" href="#" />
     <link rel="next" title="About Chelsea School" href="about.php" />-->
+	
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -102,34 +105,36 @@ require_once 'includes/metadata_functions.php';
  <div class="tab-pane active" id="buttons">
  
  <div class="row">
-    <div class="col-md-6">
-        <!--Left column of content-->
-        <a type="button" class="btn btn-primary btn-lg btn-block" href="about.php">
-          <span class="glyphicon glyphicon-star"></span> About Chelsea School
+    <div class="col-md-12">
+       <div class="btn-group btn-regular btn-group-lg btn-block">
+        
+        <a type="button" class="btn btn-default btn-block" href="about.php">
+          <i class="fa fa-question-circle"></i> About Chelsea School
         </a>
 
-        <a type="button" class="btn btn-primary btn-lg btn-block" href="Meet Chelsea School">
-          <span class="glyphicon glyphicon-star"></span> Meet Chelsea School
+        <a type="button" class="btn btn-default  btn-block" href="meet.php">
+          <i class="fa fa-comments-o"></i> Meet Chelsea School
         </a>        
 
-        <a type="button" class="btn btn-primary btn-lg btn-block" href="Admissions">
-          <span class="glyphicon glyphicon-star"></span> Admissions
+        <a type="button" class="btn btn-default btn-block" href="admissions.php">
+          <i class="fa fa-check-square-o"></i> Admissions
         </a>                
-    </div><!--End column-->
+    
 
-    <div class="col-md-6">
-        <!--Right column of content-->
-        <a type="button" class="btn btn-primary btn-lg btn-block" href="family.php">
-          <span class="glyphicon glyphicon-star"></span> Families &amp; Students
+    
+        
+        <a type="button" class="btn btn-default btn-block" href="family.php">
+          <i class="fa fa-users"></i> Families &amp; Students
         </a>
 
-        <a type="button" class="btn btn-primary btn-lg btn-block" href="calendar.php">
-          <span class="glyphicon glyphicon-star"></span> Calendars
+        <a type="button" class="btn btn-default btn-block" href="calendar.php">
+          <i class="fa fa-calendar"></i> Calendars
         </a>        
 
-        <a type="button" class="btn btn-primary btn-lg btn-block" href="gallery.php">
-          <span class="glyphicon glyphicon-star"></span> Media Gallery
-        </a>                
+        <a type="button" class="btn  btn-block btn-default" href="gallery.php">
+          <i class="fa fa-camera"></i> Media Gallery
+        </a> 
+        </div>               
     </div><!--End column-->
 </div><!--end row-->
 <!--<p align=center><a href="gallery.php"><img src="http://placehold.it/1080x760&text=Tremendous+Promo+Shot+or+Logo"></a></p>
@@ -217,7 +222,7 @@ require_once 'includes/metadata_functions.php';
  
 
 <footer class="footer">
-  <div class="container">
+  <!-- <div class="container">
     <p class="pull-right">
       <a href="#">Back to top</a>
       
@@ -225,7 +230,7 @@ require_once 'includes/metadata_functions.php';
     <p>
         &copy; Copyright 2014, Chelsea School.<br/>
     </p>
-  </div>
+  </div>-->
 </footer>
 
   </body>

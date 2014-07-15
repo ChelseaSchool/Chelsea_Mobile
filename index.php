@@ -26,7 +26,7 @@ require_once 'includes/metadata_functions.php';
 
     <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
      
 <!-- Tabs -->

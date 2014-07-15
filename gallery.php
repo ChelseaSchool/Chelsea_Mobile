@@ -11,7 +11,7 @@ require_once 'includes/metadata_functions.php';
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <title>Chelsea School &mdash; Chelsea School Mobile</title>
    
     <script type="text/javascript">

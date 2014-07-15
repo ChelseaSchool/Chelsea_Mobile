@@ -23,6 +23,7 @@ require_once 'includes/metadata_functions.php';
     
     <title>Chelsea School</title>
 
+
     <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />

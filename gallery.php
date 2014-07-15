@@ -9,7 +9,9 @@ require_once 'includes/metadata_functions.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
+    <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <title>Chelsea School &mdash; Chelsea School Mobile</title>
    
     <script type="text/javascript">
@@ -21,7 +23,7 @@ require_once 'includes/metadata_functions.php';
         HAS_SOURCE:  true
       };
     </script>
-   <?php write_depends(); ?>
+
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>

@@ -22,14 +22,10 @@ require_once 'includes/metadata_functions.php';
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <title>Chelsea School</title>
-    <link rel="stylesheet" href="css/chelsea.css" type="text/css" />
+    
     <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
-     
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <!-- Tabs -->
 <script type="text/javascript">
     $( document ).ready()

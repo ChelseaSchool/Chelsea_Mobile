@@ -102,7 +102,7 @@ require_once 'includes/metadata_functions.php';
 
 
  <div class="tab-pane active" id="buttons">
- 
+ <p>This project is now in collaborative development with students, teachers, and administrators at <a href="http://chelseaschool.edu">Chelsea School</a>.</p>
  <div class="row">
     <div class="col-md-12">
        <div class="btn-group btn-regular btn-group-lg btn-block">

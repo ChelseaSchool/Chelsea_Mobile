@@ -43,6 +43,11 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 
   </head>
+ <style>
+  body { 
+    padding-top: 65px; 
+}
+</style>
   <body>
 
   <?php write_top_navbar(); ?>

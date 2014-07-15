@@ -42,6 +42,18 @@ require_once 'includes/metadata_functions.php';
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
 
+<!-- Tabs -->
+<script type="text/javascript">
+    $( document ).ready()
+	$('#buttons a[href="#admissions"]').tab('show') // Select tab by name
+    $('#contents a[href="#tours"]').tab('show') // Select tab by name 
+    $('#contact a[href="#visits"]').tab('show') // Select tab by name  
+    $('#contact a[href="#open-house-events"]').tab('show') // Select tab by name 
+    $('#contact a[href="#admissions-process"]').tab('show') // Select tab by name   
+</script>    
+<!-- End Tabs -->
+<?php write_bottom_padding(); ?>
+<?php write_top_padding(); ?>
   </head>
   <body>
 
@@ -50,7 +62,20 @@ require_once 'includes/metadata_functions.php';
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      
+
+        <!-- Nav tabs -->
+<div class="nav">
+	<ul class="nav nav-tabs">
+ 		 
+ 		 <li><a href="#tours" data-toggle="tours">Tours</a></li>
+ 		 <li><a href="#visits" data-toggle="visits">Visits</a></li>	  
+ 		 <li><a href="#open-house-events" data-toggle="open-house-events">Open House</a></li>	  
+ 		 <li><a href="#admissions-process" data-toggle="admissions-process">Admission Process</a></li>	  
+ 		 
+ 	</ul>
+</div>
+ <!-- end tabs -->
+    
   <div class="section" id="admissions">
 <h1>Admissions<a class="headerlink" href="#admissions" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="tours">

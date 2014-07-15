@@ -29,7 +29,7 @@ require_once 'includes/metadata_functions.php';
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
      
-<!-- Tabs -->
+<!-- Tabs
 <script type="text/javascript">
     $( document ).ready()
 	$('#buttons a[href="#buttons"]').tab('show') // Select tab by name
@@ -78,6 +78,11 @@ require_once 'includes/metadata_functions.php';
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
 <?php write_bottom_padding(); ?>
 <?php write_top_padding(); ?>
   </head>
@@ -88,7 +93,7 @@ require_once 'includes/metadata_functions.php';
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-    <!-- Nav tabs -->
+<!--     <!-- Nav tabs
 <div class="nav">
 	<ul class="nav nav-tabs">
  		 
@@ -96,16 +101,88 @@ require_once 'includes/metadata_functions.php';
  		 <li><a href="#contents" data-toggle="tab">Contents</a></li>
  		 <li><a href="#contact" data-toggle="tab">Contact</a></li>	  
 	</ul>
-</div>
+</div>-->
  <!-- end tabs -->
- <div class="tab-content">
+ <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+      
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <p>Gallery <small>Click to dismiss</small></p>
+        </a>
+      </h4>
+    </div>
+    <div class="panel-body">
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <img src="http://placehold.it/1080x760" alt="" />
+      <div class="carousel-caption">
+         <h1>Promo: Maths &amp; Sciences</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1080x760" alt="" />
+     <div class="carousel-caption">
+         <h1>Promo Image: Literacy</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1080x760" alt="" />
+      <div class="carousel-caption">
+         <h1>Promo Image: Technology</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1080x760" alt="" />
+      <div class="carousel-caption">
+         <h1>Promo Image: Student Life</h1>
+              <p>Promotional Copy/Caption</p>
+              <a class="btn btn-lg btn-primary" href="placeholder.php" role="button">Learn More</a>
+      </div>
+    </div>
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#this-carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      
+
+      </div>
+    </div>
+  </div>
+ 
+ 
 
 
- <div class="tab-pane active" id="buttons">
- <p>This project is now in collaborative development with students, teachers, and administrators at <a href="http://chelseaschool.edu">Chelsea School</a>.</p>
- <div class="row">
-    <div class="col-md-12">
-       <div class="btn-group btn-regular btn-group-lg btn-block">
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          <p>Navigation</p>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse in">
+      <div class="panel-body">
+      
+             <div class="btn-group btn-regular btn-group-lg btn-block">
         
         <a type="button" class="btn btn-default btn-block" href="about.php">
           <i class="fa fa-question-circle"></i> About Chelsea School
@@ -125,17 +202,31 @@ require_once 'includes/metadata_functions.php';
         <a type="button" class="btn btn-default btn-block" href="family.php">
           <i class="fa fa-users"></i> Families &amp; Students
         </a>
-
+        
+        <a type="button" class="btn btn-default btn-block" href="family.php">
+          <i class="fa fa-users"></i>&nbsp; Alumni
+        </a>
+        
         <a type="button" class="btn btn-default btn-block" href="calendar.php">
           <i class="fa fa-calendar"></i> Calendars
         </a>        
 
-        <a type="button" class="btn  btn-block btn-default" href="gallery.php">
+        <!-- <a type="button" class="btn  btn-block btn-default" href="gallery.php">
           <i class="fa fa-camera"></i> Media Gallery
-        </a> 
+        </a>-->
         </div>               
     </div><!--End column-->
 </div><!--end row-->
+       </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse in">     
+      
+      </div>
+    </div>
+  </div>
+
+
+
 <!--<p align=center><a href="gallery.php"><img src="http://placehold.it/1080x760&text=Tremendous+Promo+Shot+or+Logo"></a></p>
 
 <a type="button" class="btn btn-primary btn-lg btn-block" name="buttons" type="button" href="about.php">About Chelsea School</a>
@@ -144,61 +235,22 @@ require_once 'includes/metadata_functions.php';
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="family.php">Families</a>
 <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="calendar.php">Calendars</a> 
 <!-- <a type="button" class="btn btn-primary btn-lg btn-block" type="button" href="gallery.php">Gallery</a> -->
-</div>
+
  
-<div class="tab-pane" id="contents">     
- <h1 hidden>Chelsea School<a name="contents" class="headerlink" href="#chelsea-school" title="Permalink to this headline">¶</a></h1>
-<!-- <div class="toctree-wrapper compound">-->
-<ul>
-<li><a href="gallery.php">Chelsea School Gallery</a></li>
-</ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="about.php">About Chelsea School</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="about.php#philosophy">Philosophy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="about.php#history">History</a></li>
-<li class="toctree-l2"><a class="reference internal" href="about.php#news">News</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="meet.php">Meet Chelsea School</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#students">Students</a></li>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#board">Board</a></li>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#administration">Administration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#faculty">Faculty</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="admissions.php">Admissions</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#tours">Tours</a></li>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#visits">Visits</a></li>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#open-house-events">Open House Events</a></li>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#admissions-process">Admissions Process</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="calendar.php">Calendars</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="calendar.php#id1">Academic Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="calendar.php#id2">Athletic Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="calendar.php#id3">Events Calendar</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="family.php">Family Resources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="family.php#id1">Moodle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="family.php#id2">Purchase Lunch</a></li>
-<li class="toctree-l2"><a class="reference internal" href="family.php#id3">Chelsea School Technology Guide</a></li>
-</ul>
-</li>
-</ul>
-
-<!-- </div>-->
-<!--  <div class="section" id="indices-and-tables">-->
-<h1 hidden>Index &amp; Search<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li hidden><a class="reference internal" href="genindex.php"><em>Index</em></a></li>
-<li hidden><a class="reference internal" href="search.php"><em>Search Page</em></a></li>
-</ul>
-</div>
 
 
-<div class="tab-pane" id="contact">
-	<h1>Chelsea School</h1>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          <p>Contact</p>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse in">
+      <div class="panel-body">
+	<h2>Chelsea School</h2>
 	<address>Suite 300<br>  
 
 	2970 Belcrest Center Drive<br>
@@ -206,7 +258,15 @@ require_once 'includes/metadata_functions.php';
 	Hyattsville, Maryland 20782</address>
 
 	<p><a href="phone:1-240-467-2100">1-240-467-2100</a></p>
-
+	      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse in">
+</div></div></div>
+<div class="container">
+ <p>This project is now in collaborative development with students, teachers, and administrators at <a href="http://chelseaschool.edu">Chelsea School</a>.</p>
+</div>
+</div>
+</div>
 </div>
 
 

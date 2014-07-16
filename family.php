@@ -59,7 +59,11 @@ require_once 'includes/metadata_functions.php';
                         Family Resources<a class="headerlink"
                             href="#family-resources"
                             title="Permalink to this headline">¶</a>
-                    </h1>
+                    </h1> <style>
+                            .placeholder {text-align: center}
+                            </style>
+                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/300x150"></p></div>
+                           
                     <div class="section" id="id1">
                         <h2>
                             <a class="reference external"
@@ -77,7 +81,7 @@ require_once 'includes/metadata_functions.php';
                                 href="#id2"
                                 title="Permalink to this headline">¶</a>
                         </h2>
-                        <p>Placeholder for paypal mechanism</p>
+                        <p><button type="button" class="btn btn-default btn-success">paypal placeholder </button></p>
                     </div>
                     <div class="section" id="id3">
                         <h2>

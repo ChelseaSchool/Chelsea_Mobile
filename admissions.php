@@ -85,7 +85,11 @@ require_once 'includes/metadata_functions.php';
                         Admissions<a class="headerlink"
                             href="#admissions"
                             title="Permalink to this headline">¶</a>
-                    </h1>
+                    </h1> <style>
+                            .placeholder {text-align: center}
+                            </style>
+                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/300x150"></p></div>
+                           
                     <div class="section" id="tours">
                         <h2>
                             Tours<a class="headerlink" href="#tours"

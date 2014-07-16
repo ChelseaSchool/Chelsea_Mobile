@@ -11,7 +11,7 @@ require_once 'includes/metadata_functions.php';
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>Chelsea School Calendars</title>
+<title>Chelsea School Alumni Community</title>
 
 <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
 
@@ -54,40 +54,13 @@ require_once 'includes/metadata_functions.php';
         <div class="row">
             <div class="col-md-12">
 
-                <div class="section" id="calendars">
+                <div class="section" id="alumintro">
                     <h1>
-                        Calendars<a class="headerlink" href="#calendars"
+                        Alumni Community<a class="headerlink" href="#alumintro"
                             title="Permalink to this headline">¶</a>
                     </h1>
-                    <div class="section" id="id1">
-                        <h2>
-                            <a class="reference external"
-                                href="http://google.com/calendar"><i
-                                class="fa fa-external-link"></i>
-                                Academic Calendar</a><a
-                                class="headerlink" href="#id1"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
-                    </div>
-                    <div class="section" id="id2">
-                        <h2>
-                            <a class="reference external"
-                                href="http://google.com/calendar"><i
-                                class="fa fa-external-link"></i>
-                                Athletic Calendar</a><a
-                                class="headerlink" href="#id2"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
-                    </div>
-                    <div class="section" id="id3">
-                        <h2>
-                            <a class="reference external"
-                                href="http://google.com/calendar"><i
-                                class="fa fa-external-link"></i> Events
-                                Calendar</a><a class="headerlink"
-                                href="#id3"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                   
                     </div>
                 </div>
 

@@ -8,8 +8,9 @@
  *  3. recreate bottom navbar so it's an icon toolbar
  *  4. Comment on functions
  */
-function write_top_navbar() {
-	$top= <<<EOF
+function write_top_navbar()
+{
+    $top = <<<EOF
 	
 <div id="topnavbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
     <div class="container">
@@ -95,25 +96,20 @@ function write_top_navbar() {
 
           
             
-<form class="navbar-form navbar-right" action="search.php" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
+
           
         </div>
     </div>
   </div>
   
 EOF;
-  
-  echo $top;
+    
+    echo $top;
 }
 
-function write_bottom_navbar() {
-	$bottom = <<<EOF
+function write_bottom_navbar()
+{
+    $bottom = <<<EOF
 <nav id="bottom-navbar" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
@@ -211,46 +207,53 @@ function write_bottom_navbar() {
 	</nav>
 
 EOF;
-	echo $bottom;
+    echo $bottom;
 }
 
-function write_bottom_padding() {
-	$pad = <<< EOF
+function write_bottom_padding()
+{
+    $pad = <<< EOF
 <style>
 body { padding-bottom: 70px; }
 </style>
 EOF;
-	echo $pad;
+    echo $pad;
 }
 
-function write_top_padding() {
-	$pad = <<< EOF
+function write_top_padding()
+{
+    $pad = <<< EOF
 <style>
 body { padding-top: 70px; }
 </style>
 EOF;
-	echo $pad;
+    echo $pad;
 }
 
-function write_footer() {
-	$footer=<<<EOF
+function write_footer()
+{
+    $footer = <<<EOF
 <footer class="footer">
   <div class="container">
     <p class="pull-right">
       <a href="#">Back to top</a>
       
     </p>
-    <p>
-        &copy; Copyright 2014, Chelsea School.<br/>
+    </div>
+    <div class="container">
+        <p>
+        This project is now in collaborative development with students, teachers, and administrators at Chelsea School. 
     </p>
+        </div>
   </div>
 </footer>
 EOF;
-	echo $footer;
+    echo $footer;
 }
 
-function write_depends() {
-	$depends=<<<EOF
+function write_depends()
+{
+    $depends = <<<EOF
     <link rel="stylesheet" href="css/chelsea.css" type="text/css" />
     <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
@@ -273,5 +276,5 @@ function write_depends() {
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
 EOF;
-	echo $depends;    
+    echo $depends;
 }

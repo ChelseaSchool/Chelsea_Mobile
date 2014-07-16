@@ -76,8 +76,11 @@ require_once 'includes/metadata_functions.php';
                             About Chelsea School<a name="intro"
                                 class="headerlink"
                                 href="#about-chelsea-school"
+
+
                                 title="Permalink to this headline">&nbsp;<small><span class="glyphicon glyphicon-link"></span></small></a>
                         </h1>
+
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
                             felis mollis tempor. Nullam fringilla, quam

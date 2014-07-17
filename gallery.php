@@ -70,7 +70,7 @@ require_once 'includes/metadata_functions.php';
                             </div>
                         </div>
                         <div class="item">
-                            <img src="http://placehold.it/1080x760"
+                            <img class="img-responsive" src="http://placehold.it/1080x760"
                                 alt="" />
                             <div class="carousel-caption">
                                 <h1>Promo Image: Technology</h1>

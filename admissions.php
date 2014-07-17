@@ -15,7 +15,7 @@ require_once 'includes/metadata_functions.php';
 <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-
+<link rel="stylesheet" href="css/chelsea.css" type="text/css" />
 <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -44,178 +44,238 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 
 <!-- Tabs -->
-<script type="text/javascript">
+<!--  <script type="text/javascript">
     $( document ).ready()
 	$('#buttons a[href="#admissions"]').tab('show') // Select tab by name
     $('#contents a[href="#tours"]').tab('show') // Select tab by name 
     $('#contact a[href="#visits"]').tab('show') // Select tab by name  
     $('#contact a[href="#open-house-events"]').tab('show') // Select tab by name 
     $('#contact a[href="#admissions-process"]').tab('show') // Select tab by name   
-</script>
+</script>-->
 <!-- End Tabs -->
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>
+<?php //write_bottom_padding(); ?>
+<?php //write_top_padding(); ?>
   </head>
 <body>
-
-  <?php write_top_navbar(); ?>
-
+<?php write_top_navbar(); ?>
 <div class="container">
         <div class="row">
             <div class="col-md-12">
-
                 <!-- Nav tabs -->
                 <div class="nav">
                     <ul class="nav nav-tabs">
-
-                        <li><a href="#tours" data-toggle="tours">Tours</a></li>
-                        <li><a href="#visits" data-toggle="visits">Visits</a></li>
+                        <li class="active"><a href="#tours"
+                            data-toggle="tab">Tours</a></li>
+                        <li><a href="#visits" data-toggle="tab">Visits</a></li>
                         <li><a href="#open-house-events"
-                            data-toggle="open-house-events">Open House</a></li>
+                            data-toggle="tab">Open-House Events</a></li>
                         <li><a href="#admissions-process"
-                            data-toggle="admissions-process">Admission
-                                Process</a></li>
-
+                            data-toggle="tab">Admission Process</a></li>
                     </ul>
                 </div>
-                <!-- end tabs -->
 
-                <div class="section" id="admissions">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+
+
+
+                            <!-- <div class="section" id="admissions">
                     <h1>
                         Admissions<a class="headerlink"
                             href="#admissions"
-                            title="Permalink to this headline">¶</a>
-                    </h1>
-                    <div class="section" id="tours">
-                        <h2>
-                            Tours<a class="headerlink" href="#tours"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Donec sed erat sit amet
-                            felis mollis tempor. Nullam fringilla, quam
-                            a sollicitudin malesuada, orci turpis
-                            bibendum risus, mollis placerat augue nulla
-                            at purus. Etiam faucibus consequat
-                            porttitor. Praesent venenatis urna id erat
-                            dapibus lacinia. Maecenas blandit mollis
-                            nibh, non pellentesque eros semper eu.
-                            Aliquam blandit blandit fermentum. Vivamus
-                            in urna porttitor, facilisis neque sed,
-                            mollis libero. Cras semper mauris nec
-                            sollicitudin dictum. Donec nec facilisis
-                            tellus. Quisque volutpat sem nisl, quis
-                            congue arcu condimentum id. Nam viverra,
-                            ligula et auctor ullamcorper, lectus purus
-                            commodo velit, vel tempor nulla urna eu
-                            tellus. Sed bibendum felis sed ante
-                            volutpat, in hendrerit enim hendrerit. Nulla
-                            blandit ultricies leo a tincidunt.</p>
-                            <style>
-                            .placeholder {text-align: center}
-                            </style>
-                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
-                           
-                    </div>
-                    <div class="section" id="visits">
-                        <h2>
-                            Visits<a class="headerlink" href="#visits"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Donec sed erat sit amet
-                            felis mollis tempor. Nullam fringilla, quam
-                            a sollicitudin malesuada, orci turpis
-                            bibendum risus, mollis placerat augue nulla
-                            at purus. Etiam faucibus consequat
-                            porttitor. Praesent venenatis urna id erat
-                            dapibus lacinia. Maecenas blandit mollis
-                            nibh, non pellentesque eros semper eu.
-                            Aliquam blandit blandit fermentum. Vivamus
-                            in urna porttitor, facilisis neque sed,
-                            mollis libero. Cras semper mauris nec
-                            sollicitudin dictum. Donec nec facilisis
-                            tellus. Quisque volutpat sem nisl, quis
-                            congue arcu condimentum id. Nam viverra,
-                            ligula et auctor ullamcorper, lectus purus
-                            commodo velit, vel tempor nulla urna eu
-                            tellus. Sed bibendum felis sed ante
-                            volutpat, in hendrerit enim hendrerit. Nulla
-                            blandit ultricies leo a tincidunt.</p>
-                            <style>
-                            .placeholder {text-align: center}
-                            </style>
-                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
-                    </div>
-                    <div class="section" id="open-house-events">
-                        <h2>
-                            Open House Events<a class="headerlink"
-                                href="#open-house-events"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Donec sed erat sit amet
-                            felis mollis tempor. Nullam fringilla, quam
-                            a sollicitudin malesuada, orci turpis
-                            bibendum risus, mollis placerat augue nulla
-                            at purus. Etiam faucibus consequat
-                            porttitor. Praesent venenatis urna id erat
-                            dapibus lacinia. Maecenas blandit mollis
-                            nibh, non pellentesque eros semper eu.
-                            Aliquam blandit blandit fermentum. Vivamus
-                            in urna porttitor, facilisis neque sed,
-                            mollis libero. Cras semper mauris nec
-                            sollicitudin dictum. Donec nec facilisis
-                            tellus. Quisque volutpat sem nisl, quis
-                            congue arcu condimentum id. Nam viverra,
-                            ligula et auctor ullamcorper, lectus purus
-                            commodo velit, vel tempor nulla urna eu
-                            tellus. Sed bibendum felis sed ante
-                            volutpat, in hendrerit enim hendrerit. Nulla
-                            blandit ultricies leo a tincidunt.</p>
-                            <style>
-                            .placeholder {text-align: center}
-                            </style>
-                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
-                    </div>
-                    <div class="section" id="admissions-process">
-                        <h2>
-                            Admissions Process<a class="headerlink"
-                                href="#admissions-process"
-                                title="Permalink to this headline">¶</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Donec sed erat sit amet
-                            felis mollis tempor. Nullam fringilla, quam
-                            a sollicitudin malesuada, orci turpis
-                            bibendum risus, mollis placerat augue nulla
-                            at purus. Etiam faucibus consequat
-                            porttitor. Praesent venenatis urna id erat
-                            dapibus lacinia. Maecenas blandit mollis
-                            nibh, non pellentesque eros semper eu.
-                            Aliquam blandit blandit fermentum. Vivamus
-                            in urna porttitor, facilisis neque sed,
-                            mollis libero. Cras semper mauris nec
-                            sollicitudin dictum. Donec nec facilisis
-                            tellus. Quisque volutpat sem nisl, quis
-                            congue arcu condimentum id. Nam viverra,
-                            ligula et auctor ullamcorper, lectus purus
-                            commodo velit, vel tempor nulla urna eu
-                            tellus. Sed bibendum felis sed ante
-                            volutpat, in hendrerit enim hendrerit. Nulla
-                            blandit ultricies leo a tincidunt.</p>
-                            <style>
-                            .placeholder {text-align: center}
-                            </style>
-                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
+                            title="Permalink to this headline">¶</a>-->
+
+
+
+
+
+                            <h2>
+                                Admissions <small>(Sticky Intro
+                                    Placeholer)</small>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Donec sed erat sit amet
+                                felis mollis tempor. Nullam fringilla,
+                                quam a sollicitudin malesuada...</p>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tours">
+                                    <h2>
+                                        Tours<a class="headerlink"
+                                            href="#tours"
+                                            title="Permalink to this headline">¶</a>
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                        Donec sed erat sit amet felis
+                                        mollis tempor. Nullam fringilla,
+                                        quam a sollicitudin malesuada,
+                                        orci turpis bibendum risus,
+                                        mollis placerat augue nulla at
+                                        purus. Etiam faucibus consequat
+                                        porttitor. Praesent venenatis
+                                        urna id erat dapibus lacinia.
+                                        Maecenas blandit mollis nibh,
+                                        non pellentesque eros semper eu.
+                                        Aliquam blandit blandit
+                                        fermentum. Vivamus in urna
+                                        porttitor, facilisis neque sed,
+                                        mollis libero. Cras semper
+                                        mauris nec sollicitudin dictum.
+                                        Donec nec facilisis tellus.
+                                        Quisque volutpat sem nisl, quis
+                                        congue arcu condimentum id. Nam
+                                        viverra, ligula et auctor
+                                        ullamcorper, lectus purus
+                                        commodo velit, vel tempor nulla
+                                        urna eu tellus. Sed bibendum
+                                        felis sed ante volutpat, in
+                                        hendrerit enim hendrerit. Nulla
+                                        blandit ultricies leo a
+                                        tincidunt.</p>
+
+
+                                    <div class="placeholder">
+                                        <p>
+                                            <img class="img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="tab-pane" id="visits">
+
+                                    <h2>
+                                        Visits<a class="headerlink"
+                                            href="#visits"
+                                            title="Permalink to this headline">¶</a>
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                        Donec sed erat sit amet felis
+                                        mollis tempor. Nullam fringilla,
+                                        quam a sollicitudin malesuada,
+                                        orci turpis bibendum risus,
+                                        mollis placerat augue nulla at
+                                        purus. Etiam faucibus consequat
+                                        porttitor. Praesent venenatis
+                                        urna id erat dapibus lacinia.
+                                        Maecenas blandit mollis nibh,
+                                        non pellentesque eros semper eu.
+                                        Aliquam blandit blandit
+                                        fermentum. Vivamus in urna
+                                        porttitor, facilisis neque sed,
+                                        mollis libero. Cras semper
+                                        mauris nec sollicitudin dictum.
+                                        Donec nec facilisis tellus.
+                                        Quisque volutpat sem nisl, quis
+                                        congue arcu condimentum id. Nam
+                                        viverra, ligula et auctor
+                                        ullamcorper, lectus purus
+                                        commodo velit, vel tempor nulla
+                                        urna eu tellus. Sed bibendum
+                                        felis sed ante volutpat, in
+                                        hendrerit enim hendrerit. Nulla
+                                        blandit ultricies leo a
+                                        tincidunt.</p>
+                                </div>
+
+
+                                <div class="tab-pane"
+                                    id="open-house-events">
+                                    <h2>
+                                        Open House Events<a
+                                            class="headerlink"
+                                            href="#open-house-events"
+                                            title="Permalink to this headline">¶</a>
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                        Donec sed erat sit amet felis
+                                        mollis tempor. Nullam fringilla,
+                                        quam a sollicitudin malesuada,
+                                        orci turpis bibendum risus,
+                                        mollis placerat augue nulla at
+                                        purus. Etiam faucibus consequat
+                                        porttitor. Praesent venenatis
+                                        urna id erat dapibus lacinia.
+                                        Maecenas blandit mollis nibh,
+                                        non pellentesque eros semper eu.
+                                        Aliquam blandit blandit
+                                        fermentum. Vivamus in urna
+                                        porttitor, facilisis neque sed,
+                                        mollis libero. Cras semper
+                                        mauris nec sollicitudin dictum.
+                                        Donec nec facilisis tellus.
+                                        Quisque volutpat sem nisl, quis
+                                        congue arcu condimentum id. Nam
+                                        viverra, ligula et auctor
+                                        ullamcorper, lectus purus
+                                        commodo velit, vel tempor nulla
+                                        urna eu tellus. Sed bibendum
+                                        felis sed ante volutpat, in
+                                        hendrerit enim hendrerit. Nulla
+                                        blandit ultricies leo a
+                                        tincidunt.</p>
+                                </div>
+
+
+                                <div class="tab-pane"
+                                    id="admissions-process">
+                                    <h2>
+                                        Admission Process<a
+                                            class="headerlink"
+                                            href="#admissions-process"
+                                            title="Permalink to this headline">¶</a>
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
+                                        Donec sed erat sit amet felis
+                                        mollis tempor. Nullam fringilla,
+                                        quam a sollicitudin malesuada,
+                                        orci turpis bibendum risus,
+                                        mollis placerat augue nulla at
+                                        purus. Etiam faucibus consequat
+                                        porttitor. Praesent venenatis
+                                        urna id erat dapibus lacinia.
+                                        Maecenas blandit mollis nibh,
+                                        non pellentesque eros semper eu.
+                                        Aliquam blandit blandit
+                                        fermentum. Vivamus in urna
+                                        porttitor, facilisis neque sed,
+                                        mollis libero. Cras semper
+                                        mauris nec sollicitudin dictum.
+                                        Donec nec facilisis tellus.
+                                        Quisque volutpat sem nisl, quis
+                                        congue arcu condimentum id. Nam
+                                        viverra, ligula et auctor
+                                        ullamcorper, lectus purus
+                                        commodo velit, vel tempor nulla
+                                        urna eu tellus. Sed bibendum
+                                        felis sed ante volutpat, in
+                                        hendrerit enim hendrerit. Nulla
+                                        blandit ultricies leo a
+                                        tincidunt.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
                     </div>
                 </div>
-
-
             </div>
-
         </div>
     </div>
     <?php write_footer(); ?>
+
+
 </body>
 </html>

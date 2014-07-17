@@ -60,6 +60,19 @@ require_once 'includes/metadata_functions.php';
                             href="#family-resources"
                             title="Permalink to this headline">¶</a>
                     </h1>
+                    <style>
+.placeholder {
+	text-align: center
+}
+</style>
+                    <div class="placeholder">
+                        <p>
+                            <img text-align: center; alt="placeholder"
+                                title="Placeholder for Title"
+                                src="http://placehold.it/300x150">
+                        </p>
+                    </div>
+
                     <div class="section" id="id1">
                         <h2>
                             <a class="reference external"
@@ -67,7 +80,13 @@ require_once 'includes/metadata_functions.php';
                                 class="headerlink" href="#id1"
                                 title="Permalink to this headline">¶</a>
                         </h2>
-                        <p>Moodle, or <a href="http://chelseapride.org" title="Moodle">Chelseapride.org</a>, is a course management system used by stuents and faculty at Chelsea School. Click the links to access Moodle.</p>
+                        <p>
+                            Moodle, or <a href="http://chelseapride.org"
+                                title="Moodle">Chelseapride.org</a>, is
+                            a course management system used by stuents
+                            and faculty at Chelsea School. Click the
+                            links to access Moodle.
+                        </p>
                     </div>
                     <div class="section" id="id2">
                         <h2>
@@ -77,7 +96,11 @@ require_once 'includes/metadata_functions.php';
                                 href="#id2"
                                 title="Permalink to this headline">¶</a>
                         </h2>
-                        <p>Placeholder for paypal mechanism</p>
+                        <p>
+                            <button type="button"
+                                class="btn btn-default btn-success">paypal
+                                placeholder</button>
+                        </p>
                     </div>
                     <div class="section" id="id3">
                         <h2>
@@ -87,9 +110,27 @@ require_once 'includes/metadata_functions.php';
                                 class="headerlink" href="#id3"
                                 title="Permalink to this headline">¶</a>
                         </h2>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is
+                            not simply random text. It has roots in a
+                            piece of classical Latin literature from 45
+                            BC, making it over 2000 years old. Richard
+                            McClintock, a Latin professor at
+                            Hampden-Sydney College in Virginia, looked
+                            up one of the more obscure Latin words,
+                            consectetur, from a Lorem Ipsum passage, and
+                            going through the cites of the word in
+                            classical literature, discovered the
+                            undoubtable source. Lorem Ipsum comes from
+                            sections 1.10.32 and 1.10.33 of "de Finibus
+                            Bonorum et Malorum" (The Extremes of Good
+                            and Evil) by Cicero, written in 45 BC. This
+                            book is a treatise on the theory of ethics,
+                            very popular during the Renaissance. The
+                            first line of Lorem Ipsum, "Lorem ipsum
+                            dolor sit amet..", comes from a line in
+                            section 1.10.32.</p>
                     </div>
-                    
+
                     <div class="section" id="id4">
                         <h2>
                             <a class="reference external"
@@ -97,7 +138,10 @@ require_once 'includes/metadata_functions.php';
                                 class="headerlink" href="#id3"
                                 title="Permalink to this headline">-</a>
                         </h2>
-                        <p>Students, guardians, parents are encouraged to log in to PowerSchool weekly to celebrate successes, anticipate difficulties, and develop strategies for continuing success.</p>
+                        <p>Students, guardians, parents are encouraged
+                            to log in to PowerSchool weekly to celebrate
+                            successes, anticipate difficulties, and
+                            develop strategies for continuing success.</p>
                     </div>
                 </div>
 

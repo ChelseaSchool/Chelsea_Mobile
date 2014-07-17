@@ -21,35 +21,51 @@ audio,canvas,video {
 audio
 
 
+
+
 :not
 
+
  
+
 
 (
 [
 controls
 ]
 
+
  
+
 
 ){
 display
 
 
+
+
 :
+
 
  
 
+
 none
+
+
 
 
 ;
 height
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -142,24 +158,36 @@ img {
 svg
 
 
+
+
 :not
 
+
  
+
 
 (
 :root
 
+
  
+
 
 ){
 overflow
 
 
+
+
 :
+
 
  
 
+
 hidden
+
+
 
 
 
@@ -1891,7 +1919,7 @@ textarea.input-lg {
 	pointer-events: none;
 	cursor: not-allowed;
 	opacity: .65;
-	filter: alpha(opacity =     65);
+	filter: alpha(opacity =       65);
 	-webkit-box-shadow: none;
 	box-shadow: none
 }
@@ -3193,43 +3221,61 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 .btn
 
 
+
+
 :not
 
+
  
+
 
 (
 :first-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 .dropdown-toggle
 
 
+
 	
+
 
 ){
 border-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3242,43 +3288,63 @@ border-radius
 .btn
 
 
+
+
 :first-child
+
+
 
 
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 .dropdown-toggle
 
+
  
+
 
 ){
 border-top-right-radius
 
 
+
+
 :
 
+
  
+
 
 0;
 border-bottom-right-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3287,17 +3353,25 @@ border-bottom-right-radius
 .btn
 
 
+
+
 :last-child
+
+
 
 
 :not
 
+
  
+
 
 (
 :first-child
 
+
  
+
 
 ),
 .btn-group
@@ -3305,31 +3379,45 @@ border-bottom-right-radius
 .dropdown-toggle
 
 
+
+
 :not
+
 
 
 	
 
+
 (
 :first-child
 
+
  
+
 
 ){
 border-bottom-left-radius
 
 
+
+
 :
 
+
  
+
 
 0;
 border-top-left-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3337,8 +3425,8 @@ border-top-left-radius
 	float: left
 }
 
-.btn-group>.btn-group:not   (:first-child   ):not   (:last-child   )>.btn
-	{
+.btn-group>.btn-group:not    (:first-child    ):not    (:last-child   
+	)>.btn {
 	border-radius: 0
 }
 
@@ -3479,32 +3567,46 @@ border-top-left-radius
 .btn
 
 
+
+
 :not
 
+
  
+
 
 (
 :first-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 ){
 border-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3513,45 +3615,67 @@ border-radius
 .btn
 
 
+
+
 :first-child
+
+
 
 
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 ){
 border-top-right-radius
 
 
+
+
 :
+
 
  
 
+
 4
 px
+
+
 
 
 ;
 border-bottom-right-radius
 
 
+
+
 :
 
+
  
+
 
 0;
 border-bottom-left-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3560,50 +3684,72 @@ border-bottom-left-radius
 .btn
 
 
+
+
 :last-child
+
+
 
 
 :not
 
+
  
+
 
 (
 :first-child
 
+
  
+
 
 ){
 border-top-right-radius
 
 
+
+
 :
 
+
  
+
 
 0;
 border-bottom-left-radius
 
 
+
+
 :
+
 
  
 
+
 4
 px
+
+
 
 
 ;
 border-top-left-radius
 
 
+
+
 :
+
 
  
 
+
 0
 }
-.btn-group-vertical>.btn-group:not   (:first-child   ):not   (:last-child 
-	 )>.btn {
+.btn-group-vertical>.btn-group:not    (:first-child    ):not    (:last-child 
+	  )>.btn {
 	border-radius: 0
 }
 
@@ -3700,84 +3846,120 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 .input-group-addon
 
 
+
+
 :not
 
+
  
+
 
 (
 :first-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 ),
 .input-group-btn
 
 
+
+
 :not
+
 
 
 	
 
+
 (
 :first-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 ),
 .input-group
 
+
  
+
 
 .form-control
 
 
+
+
 :not
 
+
  
+
 
 (
 :first-child
 
 
+
 	
+
 
 )
 :not
 
+
  
+
 
 (
 :last-child
 
+
  
+
 
 ){
 border-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3817,9 +3999,13 @@ border-radius
 
 .input-group
 
+
  
 
+
 .form-control
+
+
 
 
 :first-child
@@ -3827,9 +4013,13 @@ border-radius
 .input-group-addon
 
 
+
+
 :first-child
 ,
 .input-group-btn
+
+
 
 
 :first-child
@@ -3837,6 +4027,8 @@ border-radius
 .btn
 ,
 .input-group-btn
+
+
 
 
 :first-child
@@ -3846,46 +4038,66 @@ border-radius
 .input-group-btn
 
 
+
+
 :last-child
 >
 .btn
 
 
+
+
 :not
+
 
 
 	
 
+
 (
 :last-child
 
+
  
+
 
 )
 :not
 
+
  
+
 
 (
 .dropdown-toggle
 
+
  
+
 
 ){
 border-top-right-radius
 
 
+
+
 :
 
+
  
+
 
 0;
 border-bottom-right-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -3895,9 +4107,13 @@ border-bottom-right-radius
 
 .input-group
 
+
  
 
+
 .form-control
+
+
 
 
 :last-child
@@ -3905,9 +4121,13 @@ border-bottom-right-radius
 .input-group-addon
 
 
+
+
 :last-child
 ,
 .input-group-btn
+
+
 
 
 :last-child
@@ -3915,6 +4135,8 @@ border-bottom-right-radius
 .btn
 ,
 .input-group-btn
+
+
 
 
 :last-child
@@ -3924,36 +4146,52 @@ border-bottom-right-radius
 .input-group-btn
 
 
+
+
 :first-child
 >
 .btn
 
 
+
+
 :not
+
 
 
 	
 
+
 (
 :first-child
 
+
  
+
 
 ){
 border-bottom-left-radius
 
 
+
+
 :
 
+
  
+
 
 0;
 border-top-left-radius
 
 
+
+
 :
 
+
  
+
 
 0
 }
@@ -5942,7 +6180,7 @@ a.list-group-item:hover,a.list-group-item:focus {
 	color: #000;
 	text-shadow: 0 1px 0 #fff;
 	opacity: .2;
-	filter: alpha(opacity =     20)
+	filter: alpha(opacity =       20)
 }
 
 .close:hover,.close:focus {
@@ -5950,7 +6188,7 @@ a.list-group-item:hover,a.list-group-item:focus {
 	text-decoration: none;
 	cursor: pointer;
 	opacity: .5;
-	filter: alpha(opacity =     50)
+	filter: alpha(opacity =       50)
 }
 
 button.close {
@@ -6030,12 +6268,12 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 
 .modal-backdrop.fade {
 	opacity: 0;
-	filter: alpha(opacity =     0)
+	filter: alpha(opacity =       0)
 }
 
 .modal-backdrop.in {
 	opacity: .5;
-	filter: alpha(opacity =     50)
+	filter: alpha(opacity =       50)
 }
 
 .modal-header {
@@ -6144,13 +6382,13 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 	font-size: 13px;
 	line-height: 1.4;
 	opacity: 0;
-	filter: alpha(opacity =     0);
+	filter: alpha(opacity =       0);
 	visibility: visible
 }
 
 .tooltip.in {
 	opacity: .9;
-	filter: alpha(opacity =     90)
+	filter: alpha(opacity =       90)
 }
 
 .tooltip.top {
@@ -6456,7 +6694,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 	text-align: center;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	opacity: .5;
-	filter: alpha(opacity =     50)
+	filter: alpha(opacity =       50)
 }
 
 .carousel-control.left {
@@ -6493,7 +6731,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 	color: #fff;
 	text-decoration: none;
 	opacity: .9;
-	filter: alpha(opacity =     90)
+	filter: alpha(opacity =       90)
 }
 
 .carousel-control .icon-prev,.carousel-control .icon-next,.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right

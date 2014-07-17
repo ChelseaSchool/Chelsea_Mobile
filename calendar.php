@@ -59,6 +59,19 @@ require_once 'includes/metadata_functions.php';
                         Calendars<a class="headerlink" href="#calendars"
                             title="Permalink to this headline">¶</a>
                     </h1>
+                    <style>
+.placeholder {
+	text-align: center
+}
+</style>
+                    <div class="placeholder">
+                        <p>
+                            <img text-align: center; alt="placeholder"
+                                title="Placeholder for Title"
+                                src="http://placehold.it/300x150">
+                        </p>
+                    </div>
+
                     <div class="section" id="id1">
                         <h2>
                             <a class="reference external"

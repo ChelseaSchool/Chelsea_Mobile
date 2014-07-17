@@ -90,7 +90,8 @@ function write_top_navbar()
                        <li><a href="calendars.php">Calendars</a></li>
 <li><a href="site.php">About this Site</a></li>
 <li><a href="social.php" title="Chelsea School around the Web">Social Media</a></li>
-        </li>
+<li><a href="calendar.php" title="Calendars">Calendars</a></li>
+      
         
             
 

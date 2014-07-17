@@ -54,7 +54,7 @@ require_once 'includes/metadata_functions.php';
             <div class="col-md-12">
                 <!-- Nav tabs -->
                 <div class="nav">
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs tablist">
                         <li class="active"><a href="#about"
                             data-toggle="tab">About Chelsea</a></li>
                         <li><a href="#philosophy" data-toggle="tab">Philosophy</a></li>

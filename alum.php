@@ -57,8 +57,15 @@ require_once 'includes/metadata_functions.php';
                     <h1>
                         Alumni Community<a class="headerlink"
                             href="#alumintro"
-                            title="Permalink to this headline">¶</a>
+                            title="Permalink to this headline">¶</a><div class="placeholder">
+                                        <p>
+                                        </p>
+                                    </div>
                     </h1>
+
+                    
+             
+
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since
@@ -66,17 +73,17 @@ require_once 'includes/metadata_functions.php';
                         of type and scrambled it to make a type specimen
                         book. It has survived not only five centuries,
                         ...</p>
-<style>
-.placeholder {
-	text-align: center
-}
-</style>
-                    <div class="placeholder">
-                        <p>
-                            <img alt="placeholder"
-                                title="Placeholder for Title"
-                                src="http://placehold.it/300x150">
+
+                           <div class="placeholder">
+                                        <p>
+                                            <img class="img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
+                                        </p>
+                                    </div>
                         </p>
+
                     </div>
 <h1>Alumni Services</h1>
 <p><a type="button" class="btn btn-default btn-block" href="https://www.google.com/a/chelseapride.org/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/chelseapride.org/&ss=1&ltmpl=default&ltmplcache=2&emr=1"><span class="glyphicon glyphicon-envelope"></span> Access Chelsea Email Account &raquo; </a></p>

@@ -42,8 +42,7 @@ require_once 'includes/metadata_functions.php';
 <meta name='viewport'
     content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>
+
 </head>
 
 <body>
@@ -60,16 +59,15 @@ require_once 'includes/metadata_functions.php';
                             href="#family-resources"
                             title="Permalink to this headline">¶</a>
                     </h1>
-                    <style>
-.placeholder {
-	text-align: center
-}
-</style>
-                    <div class="placeholder">
-                        <p>
-                            <img text-align: center; alt="placeholder"
-                                title="Placeholder for Title"
-                                src="http://placehold.it/300x150">
+                    
+                                <div class="placeholder">
+                                        <p>
+                                            <img class="img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
+                                        </p>
+                                    </div>
                         </p>
                     </div>
 

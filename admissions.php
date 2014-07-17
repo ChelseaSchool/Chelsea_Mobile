@@ -87,9 +87,8 @@ require_once 'includes/metadata_functions.php';
                     <h1>
                         Admissions<a class="headerlink"
                             href="#admissions"
-                            title="Permalink to this headline">¶</a>
+                            title="Permalink to this headline">¶</a>-->
 
-                    </h1>-->
 
 
 

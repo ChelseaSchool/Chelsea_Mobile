@@ -42,13 +42,8 @@ require_once 'includes/metadata_functions.php';
 <meta name='viewport'
     content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>
-   <script>
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-</script>
+
+
 
 </head>
 <body>
@@ -65,7 +60,6 @@ require_once 'includes/metadata_functions.php';
                         <li><a href="#philosophy" data-toggle="tab">Philosophy</a></li>
                         <li><a href="#history" data-toggle="tab">History</a></li>
                         <li><a href="#news" data-toggle="tab">News</a></li>
-                        <li><a href="#gallery" data-toggle="tab">Gallery</a></li>
                     </ul>
                 </div>
                 <div class="tab-content">
@@ -78,7 +72,14 @@ require_once 'includes/metadata_functions.php';
                                 href="#about-chelsea-school"
                                 title="Permalink to this headline">&nbsp;<small><span
                                     class="glyphicon glyphicon-link"></span></small></a>
-                        </h1>
+                        </h1><div class="placeholder">
+                                        <p>
+                                            <img class="img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
+                                        </p>
+                                    </div>
 
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -302,95 +303,11 @@ require_once 'includes/metadata_functions.php';
                             orci.</p>
                     </div>
 
-                    <div class="tab-pane" id="gallery">
-                        <!--  Carousel - consult the Twitter Bootstrap docs at
-      http://twitter.github.com/bootstrap/javascript.html#carousel -->
-                        <div id="this-carousel-id"
-                            class="carousel slide">
-                            <!-- class of slide for animation -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <!-- class of active since it's the first item -->
-                                    <img
-                                        src="http://placehold.it/1200x480"
-                                        alt="" />
-                                    <div class="carousel-caption">
-                                        <h1>One more for good measure.</h1>
-                                        <p>Cras justo odio, dapibus ac
-                                            facilisis in, egestas eget
-                                            quam. Donec id elit non mi
-                                            porta gravida at eget metus.
-                                            Nullam id dolor id nibh
-                                            ultricies vehicula ut id
-                                            elit.</p>
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img
-                                        src="http://placehold.it/1200x480"
-                                        alt="" />
-                                    <div class="carousel-caption">
-                                        <h1>One more for good measure.</h1>
-                                        <p>Cras justo odio, dapibus ac
-                                            facilisis in, egestas eget
-                                            quam. Donec id elit non mi
-                                            porta gravida at eget metus.
-                                            Nullam id dolor id nibh
-                                            ultricies vehicula ut id
-                                            elit.</p>
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img
-                                        src="http://placehold.it/1200x480"
-                                        alt="" />
-                                    <div class="carousel-caption">
-                                        <h1>One more for good measure.</h1>
-                                        <p>Cras justo odio, dapibus ac
-                                            facilisis in, egestas eget
-                                            quam. Donec id elit non mi
-                                            porta gravida at eget metus.
-                                            Nullam id dolor id nibh
-                                            ultricies vehicula ut id
-                                            elit.</p>
-
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img
-                                        src="http://placehold.it/1200x480"
-                                        alt="" />
-                                    <div class="carousel-caption">
-                                        <h1>One more for good measure.</h1>
-                                        <p>Cras justo odio, dapibus ac
-                                            facilisis in, egestas eget
-                                            quam. Donec id elit non mi
-                                            porta gravida at eget metus.
-                                            Nullam id dolor id nibh
-                                            ultricies vehicula ut id
-                                            elit.</p>
-
-                                    </div>
+                                                        </div>
                                 </div>
                             </div>
-                            <!-- /.carousel-inner -->
-                            <!--  Next and Previous controls below
-        href values must reference the id for this carousel -->
-                            <a class="left carousel-control"
-                                href="#this-carousel-id"
-                                data-slide="prev"><span
-                                class="glyphicon glyphicon-chevron-left"></span></a>
-                            <a class="right carousel-control"
-                                href="#this-carousel-id"
-                                data-slide="next"><span
-                                class="glyphicon glyphicon-chevron-right"></span></a>
-                        </div>
-                        <!-- /.carousel -->
-                    </div>
-                    <!-- END Gallery Tab -->
-
+                           
+                        
 
                 </div>
             </div>

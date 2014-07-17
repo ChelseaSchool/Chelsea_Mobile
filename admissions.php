@@ -63,8 +63,8 @@ require_once 'includes/metadata_functions.php';
                         <li class="active"><a href="#tours"
                             data-toggle="tab">Tours</a></li>
                         <li><a href="#visits" data-toggle="tab">Visits</a></li>
-                        <li><a href="#open-house-events"
-                            data-toggle="tab">Open-House Events</a></li>
+                        <li><a href="#open-house"
+                            data-toggle="tab">Open House</a></li>
                         <li><a href="#admissions-process"
                             data-toggle="tab">Process</a></li>
                     </ul>
@@ -100,9 +100,7 @@ require_once 'includes/metadata_functions.php';
                             <div class="tab-content">
                                 <div class="tab-pane" id="tours">
                                     <h2>
-                                        Tours<a class="headerlink"
-                                            href="#tours"
-                                            title="Permalink to this headline">¶</a>
+                                        Tours
                                     </h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.
@@ -149,9 +147,7 @@ require_once 'includes/metadata_functions.php';
                                 <div class="tab-pane" id="visits">
 
                                     <h2>
-                                        Visits<a class="headerlink"
-                                            href="#visits"
-                                            title="Permalink to this headline">¶</a>
+                                        Visits
                                     </h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.
@@ -185,12 +181,9 @@ require_once 'includes/metadata_functions.php';
 
 
                                 <div class="tab-pane"
-                                    id="open-house-events">
+                                    id="open-house">
                                     <h2>
-                                        Open House Events<a
-                                            class="headerlink"
-                                            href="#open-house-events"
-                                            title="Permalink to this headline">¶</a>
+                                        Open House Events
                                     </h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.

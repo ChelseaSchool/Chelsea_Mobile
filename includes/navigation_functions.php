@@ -84,10 +84,11 @@ function write_top_navbar()
          <li><a alt="about" title="About Chelsea School" href="about.php">About Chelsea School</a></li>
          <li><a alt="meet" title="Meet Chelsea School" href="meet.php">Meet Chelsea School</a></li>
          <li><a alt="Student and Family Resources" title="Student & Family" href="family.php">Student &amp; Family Resources</a></li>
-                     
+         <li><a alt="admissions" title="Chelsea School Admission" href="admissions.php">Admissions</a></li>
+        
         
         <li><a alt="alum" title="Alumni Services" href="alum.php">Alumni</a></li>
-                       <li><a href="calendars.php">Calendars</a></li>
+                       <li><a href="calendar.php">Calendars</a></li>
 <li><a href="site.php">About this Site</a></li>
 <li><a href="social.php" title="Chelsea School around the Web">Social Media</a></li>
 <li><a href="calendar.php" title="Calendars">Calendars</a></li>

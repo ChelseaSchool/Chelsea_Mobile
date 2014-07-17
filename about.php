@@ -14,6 +14,7 @@ require_once 'includes/metadata_functions.php';
 <link rel="stylesheet" href="css/tabs.min.css" type="text/css" />
 
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="css/chelsea.css" type="text/css" />
 <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -66,20 +67,10 @@ require_once 'includes/metadata_functions.php';
                     <!--<div class="section" id="about-chelsea-school">-->
 
                     <div class="tab-pane active" id="about">
-                        <h1>
-                            About Chelsea School<a name="intro"
-                                class="headerlink"
-                                href="#about-chelsea-school"
-                                title="Permalink to this headline">&nbsp;<small><span
-                                    class="glyphicon glyphicon-link"></span></small></a>
-                        </h1><div class="placeholder">
-                                        <p>
-                                            <img class="img-responsive"
-                                                alt="placeholder"
-                                                title="Placeholder for Relevant Image"
-                                                src="http://placehold.it/300x150">
-                                        </p>
-                                    </div>
+                        <h2>
+                            About Chelsea School
+                        </h2>
+                        
 
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -105,10 +96,7 @@ require_once 'includes/metadata_functions.php';
 
                     <div class="tab-pane" id="philosophy">
                         <h2>
-                            Philosophy<a name="philosophy"
-                                class="headerlink" href="#philosophy"
-                                title="Permalink to this headline">&nbsp;<small><span
-                                    class="glyphicon glyphicon-link"></span></small></a>
+                            Philosophy
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -171,10 +159,7 @@ require_once 'includes/metadata_functions.php';
                     </div>
                     <div class="tab-pane" id="history">
                         <h2>
-                            History<a name="history" class="headerlink"
-                                href="#history"
-                                title="Permalink to this headline">&nbsp;<small><span
-                                    class="glyphicon glyphicon-link"></span></small></a>
+                            History
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -238,10 +223,7 @@ require_once 'includes/metadata_functions.php';
 
                     <div class="tab-pane" id="news">
                         <h2>
-                            News&nbsp; <a class="headerlink" name="news"
-                                href="#news"
-                                title="Permalink to this headline">&nbsp;<small><span
-                                    class="glyphicon glyphicon-link"></span></small></a>
+                            News
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet

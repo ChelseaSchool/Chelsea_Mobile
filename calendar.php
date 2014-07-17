@@ -74,7 +74,7 @@ require_once 'includes/metadata_functions.php';
                             <a class="btn btn-default"
                                 href="http://google.com/calendar"><i
                                 class="fa fa-external-link"></i>
-                                Academic Calendar</a><a
+                                Athletic Calendar</a><a
                                 class="headerlink" href="#id1"
                                 title="Permalink to this headline">¶</a>
                         </h2>
@@ -82,9 +82,9 @@ require_once 'includes/metadata_functions.php';
                     <div class="section" id="id2">
                         <h2>
                             <a class="btn btn-default"
-                                href="http://google.com/calendar"><i
+                                href="cal2014-2015.php"><i
                                 class="fa fa-external-link"></i>
-                                Athletic Calendar</a><a
+                                Academic Calendar</a><a
                                 class="headerlink" href="#id2"
                                 title="Permalink to this headline">¶</a>
                         </h2>

@@ -65,7 +65,7 @@ require_once 'includes/metadata_functions.php';
 
                 <!-- Nav tabs -->
                 <div class="nav">
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs" role="tablist">
 
                         <li><a href="#students" data-toggle="tab">Students</a></li>
                         <li><a href="#faculty" data-toggle="tab">Faculty</a></li>
@@ -78,50 +78,31 @@ require_once 'includes/metadata_functions.php';
 
                 <div class="section" id="meet-chelsea-school">
                     <h1>
-                        Meet Chelsea School<a class="headerlink"
-                            href="#meet-chelsea-school"
-                            title="Permalink to this headline">¶</a>
+                        Meet Chelsea School
                     </h1>
                     
-      <div class="placeholder">
+    
                                         <p>
-                                            <img class="img-responsive"
+                                            <img class="center-block img-responsive"
                                                 alt="placeholder"
                                                 title="Placeholder for Relevant Image"
                                                 src="http://placehold.it/300x150">
                                         </p>
-                                    </div>
-                        </p>
+                                    
+                  
                     </div>
 
                     <p>Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Donec sed erat sit amet felis
-                        mollis tempor. Nullam fringilla, quam a
-                        sollicitudin malesuada, orci turpis bibendum
-                        risus, mollis placerat augue nulla at purus.
-                        Etiam faucibus consequat porttitor. Praesent
-                        venenatis urna id erat dapibus lacinia. Maecenas
-                        blandit mollis nibh, non pellentesque eros
-                        semper eu. Aliquam blandit blandit fermentum.
-                        Vivamus in urna porttitor, facilisis neque sed,
-                        mollis libero. Cras semper mauris nec
-                        sollicitudin dictum. Donec nec facilisis tellus.
-                        Quisque volutpat sem nisl, quis congue arcu
-                        condimentum id. Nam viverra, ligula et auctor
-                        ullamcorper, lectus purus commodo velit, vel
-                        tempor nulla urna eu tellus. Sed bibendum felis
-                        sed ante volutpat, in hendrerit enim hendrerit.
-                        Nulla blandit ultricies leo a tincidunt.</p>
+                        mollis tempor.</p>
                 </div>
 
                 <!-- Tabbed Panes From Here -->
-                <div class="tab-content">
+                <div class="container tab-content">
 
                     <div class="section tab-pane" id="students">
                         <h2>
-                            Students<a name="students"
-                                class="headerlink" href="#students"
-                                title="Permalink to this headline">¶</a>
+                            Students
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -187,9 +168,7 @@ require_once 'includes/metadata_functions.php';
 
                     <div class="section tab-pane" id="board">
                         <h2>
-                            Board<a name="board" class="headerlink"
-                                href="#board"
-                                title="Permalink to this headline">¶</a>
+                            Board
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -253,10 +232,7 @@ require_once 'includes/metadata_functions.php';
 
                     <div class="section tab-pane" id="administration">
                         <h2>
-                            Administration<a name="administration"
-                                class="headerlink"
-                                href="#administration"
-                                title="Permalink to this headline">¶</a>
+                            Administration
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -320,9 +296,7 @@ require_once 'includes/metadata_functions.php';
 
                     <div class="section tab-pane" id="faculty">
                         <h2>
-                            Faculty<a name="faculty" class="headerlink"
-                                href="#faculty"
-                                title="Permalink to this headline">¶</a>
+                            Faculty
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet

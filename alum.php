@@ -43,8 +43,7 @@ require_once 'includes/metadata_functions.php';
 <meta name='viewport'
     content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>
+
 </head>
 <body>
 
@@ -66,27 +65,24 @@ require_once 'includes/metadata_functions.php';
                         the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen
                         book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing
-                        software like Aldus PageMaker including versions
-                        of Lorem Ipsum.</p>
-                    <style>
+                        ...</p>
+<style>
 .placeholder {
 	text-align: center
 }
 </style>
                     <div class="placeholder">
                         <p>
-                            <img text-align: center; alt="placeholder"
+                            <img alt="placeholder"
                                 title="Placeholder for Title"
                                 src="http://placehold.it/300x150">
                         </p>
                     </div>
-
-                </div>
+<h1>Alumni Services</h1>
+<p><a type="button" class="btn btn-default btn-block" href="https://www.google.com/a/chelseapride.org/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/chelseapride.org/&ss=1&ltmpl=default&ltmplcache=2&emr=1"><span class="glyphicon glyphicon-envelope"></span> Access Chelsea Email Account &raquo; </a></p>
+<p><a type="button" class="btn btn-default btn-block" href="http://chelseapride.org/helpdesk" title="Contact Helpdesk if you have trouble with your Chelsea accounts"><span class="glyphicon glyphicon-hdd"></span> Tech Support (Helpdesk) &raquo;</a></p>
+<p><a type="button" class="btn btn-default btn-block" href="mailto:information@chelseaschool.edu" title="Career Support Placeholder"><span class="glyphicon glyphicon-briefcase"></span> Career Support &raquo; </a>
+</div>
             </div>
 
 

@@ -181,28 +181,37 @@ require_once 'includes/metadata_functions.php';
                                             href="about.php"> <i
                                             class="fa fa-question-circle"></i>
                                             About Chelsea School
-                                        </a> <a type="button"
+                                        </a> 
+                                        
+                                        <a type="button"
                                             class="btn btn-default  btn-block"
                                             href="meet.php"> <i
                                             class="fa fa-comments-o"></i>
                                             Meet Chelsea School
-                                        </a> <a type="button"
+                                        </a> 
+                                        
+                                        <a type="button"
                                             class="btn btn-default btn-block"
                                             href="admissions.php"> <i
                                             class="fa fa-file-text-o"></i>
 
                                             Admissions
-                                        </a> <a type="button"
+                                        </a> 
+                                        
+                                        <a type="button"
                                             class="btn btn-default btn-block"
                                             href="family.php"> <i
                                             class="fa fa-users"></i>
                                             Families &amp; Students
-                                        </a> <a type="button"
+                                        </a> 
+                                        
+                                        <a type="button"
                                             class="btn btn-default btn-block"
-                                            href="family.php"><i
+                                            href="alum.php"><i
                                             class="fa fa-graduation-cap"></i>
-
-                                            Alumni </a> <a type="button"
+                                            Alumni </a> 
+                                            
+                                            <a type="button"
                                             class="btn btn-default btn-block"
                                             href="calendar.php"> <i
                                             class="fa fa-calendar"></i>
@@ -252,7 +261,7 @@ require_once 'includes/metadata_functions.php';
                     <div id="collapseThree"
                         class="panel-collapse collapse in">
                         <div class="panel-body">
-                            <h2>Chelsea School</h2>
+                            <h3>Chelsea School</h3>
                             <address>
                                 Suite 300<br> 2970 Belcrest Center Drive<br>
                                 Hyattsville, Maryland 20782

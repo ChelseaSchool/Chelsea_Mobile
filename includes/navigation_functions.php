@@ -78,19 +78,11 @@ function write_top_navbar()
             </ul>
        </li>
        <!--End students and families-->
-       <!--Start Alumni-->
-          <li class="dropdown">
-            
-                <a href="alum.php" class="dropdown-toggle" data-toggle="dropdown">Alumni <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-        <li><a href="family.php#">Students</a></li>
-                    <li><a href="alum.php#">Moodle</a></li>
-                    <li><a href="alum.php#">Tech Support</a></li>
-                    
-            </ul>
+                       <li><a alt="alum" title="Alumni Services" href="alum.php">Alumni</a></li>
                        <li><a href="calendars.php">Calendars</a></li>
 <li><a href="site.php">About this Site</a></li>
-       </li>
+<li><a href="social.php" title="Chelsea School around the Web">Social Media</a></li>
+        </li>
         
             
 

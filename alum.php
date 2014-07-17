@@ -56,22 +56,43 @@ require_once 'includes/metadata_functions.php';
 
                 <div class="section" id="alumintro">
                     <h1>
-                        Alumni Community<a class="headerlink" href="#alumintro"
+                        Alumni Community<a class="headerlink"
+                            href="#alumintro"
                             title="Permalink to this headline">¶</a>
                     </h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since
+                        the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen
+                        book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting,
+                        remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing
+                        software like Aldus PageMaker including versions
+                        of Lorem Ipsum.</p>
                     <style>
-                            .placeholder {text-align: center}
-                            </style>
-                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/300x150"></p></div>
-                           
+.placeholder {
+	text-align: center
+}
+</style>
+                    <div class="placeholder">
+                        <p>
+                            <img text-align: center; alt="placeholder"
+                                title="Placeholder for Title"
+                                src="http://placehold.it/300x150">
+                        </p>
                     </div>
+
                 </div>
-
-
             </div>
 
+
         </div>
+
+    </div>
     </div>
         <?php write_footer(); ?>
 </body>

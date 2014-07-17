@@ -76,9 +76,8 @@ require_once 'includes/metadata_functions.php';
                             About Chelsea School<a name="intro"
                                 class="headerlink"
                                 href="#about-chelsea-school"
-
-
-                                title="Permalink to this headline">&nbsp;<small><span class="glyphicon glyphicon-link"></span></small></a>
+                                title="Permalink to this headline">&nbsp;<small><span
+                                    class="glyphicon glyphicon-link"></span></small></a>
                         </h1>
 
                         <p>Lorem ipsum dolor sit amet, consectetur
@@ -107,7 +106,8 @@ require_once 'includes/metadata_functions.php';
                         <h2>
                             Philosophy<a name="philosophy"
                                 class="headerlink" href="#philosophy"
-                                title="Permalink to this headline">&nbsp;<small><span class="glyphicon glyphicon-link"></span></small></a>
+                                title="Permalink to this headline">&nbsp;<small><span
+                                    class="glyphicon glyphicon-link"></span></small></a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -172,7 +172,8 @@ require_once 'includes/metadata_functions.php';
                         <h2>
                             History<a name="history" class="headerlink"
                                 href="#history"
-                                title="Permalink to this headline">&nbsp;<small><span class="glyphicon glyphicon-link"></span></small></a>
+                                title="Permalink to this headline">&nbsp;<small><span
+                                    class="glyphicon glyphicon-link"></span></small></a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet
@@ -238,7 +239,8 @@ require_once 'includes/metadata_functions.php';
                         <h2>
                             News&nbsp; <a class="headerlink" name="news"
                                 href="#news"
-                                title="Permalink to this headline">&nbsp;<small><span class="glyphicon glyphicon-link"></span></small></a>
+                                title="Permalink to this headline">&nbsp;<small><span
+                                    class="glyphicon glyphicon-link"></span></small></a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet

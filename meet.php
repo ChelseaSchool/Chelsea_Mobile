@@ -83,11 +83,20 @@ require_once 'includes/metadata_functions.php';
                         Meet Chelsea School<a class="headerlink"
                             href="#meet-chelsea-school"
                             title="Permalink to this headline">¶</a>
-                    </h1> <style>
-                            .placeholder {text-align: center}
-                            </style>
-                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/300x150"></p></div>
-                           
+                    </h1>
+                    <style>
+.placeholder {
+	text-align: center
+}
+</style>
+                    <div class="placeholder">
+                        <p>
+                            <img text-align: center; alt="placeholder"
+                                title="Placeholder for Title"
+                                src="http://placehold.it/300x150">
+                        </p>
+                    </div>
+
                     <p>Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Donec sed erat sit amet felis
                         mollis tempor. Nullam fringilla, quam a

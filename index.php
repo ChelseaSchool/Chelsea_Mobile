@@ -47,7 +47,8 @@ require_once 'includes/metadata_functions.php';
 <!-- jQuery Resources -->
 <link rel="stylesheet"
     href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="css/chelsea.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 
@@ -87,8 +88,9 @@ require_once 'includes/metadata_functions.php';
     $('.carousel').carousel();
   });
 </script>
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>
+<?php //write_bottom_padding(); ?>
+<?php //write_top_padding(); ?>
+<link rel="shortcut icon" href="favicon.ico">
   </head>
 <body>
 
@@ -114,8 +116,7 @@ require_once 'includes/metadata_functions.php';
 
                                 <a data-toggle="collapse"
                                     data-parent="#accordion"
-                                    href="#collapseOne"> Gallery <small>Click
-                                        to dismiss</small>
+                                    href="#collapseOne"> Gallery <small>Close</small>
 
                                 </a>
                             </h4>
@@ -127,117 +128,47 @@ require_once 'includes/metadata_functions.php';
                                     <a data-toggle="collapse"
                                         data-parent="#accordion"
                                         href="#collapseOne">
-                                        <div id="this-carousel-id"
-                                            class="carousel slide">
-                                            <!-- class of slide for animation -->
-                                            <div class="carousel-inner">
-                                                <div class="item active">
-                                                    <!-- class of active since it's the first item -->
-                                                    <img
-                                                        src="http://placehold.it/1080x760"
-                                                        alt="" />
-                                                    <div
-                                                        class="carousel-caption">
-                                                        <h1>Promo: Maths
-                                                            &amp;
-                                                            Sciences</h1>
-                                                        <p>Promotional
-                                                            Copy/Caption</p>
-                                                        <a
-                                                            class="btn btn-lg btn-primary"
-                                                            href="placeholder.php"
-                                                            role="button">Learn
-                                                            More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img
-                                                        src="http://placehold.it/1080x760"
-                                                        alt="" />
-                                                    <div
-                                                        class="carousel-caption">
-                                                        <h1>Promo Image:
-                                                            Literacy</h1>
-                                                        <p>Promotional
-                                                            Copy/Caption</p>
-                                                        <a
-                                                            class="btn btn-lg btn-primary"
-                                                            href="placeholder.php"
-                                                            role="button">Learn
-                                                            More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img
-                                                        src="http://placehold.it/1080x760"
-                                                        alt="" />
-                                                    <div
-                                                        class="carousel-caption">
-                                                        <h1>Promo Image:
-                                                            Technology</h1>
-                                                        <p>Promotional
-                                                            Copy/Caption</p>
-                                                        <a
-                                                            class="btn btn-lg btn-primary"
-                                                            href="placeholder.php"
-                                                            role="button">Learn
-                                                            More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <img
-                                                        src="http://placehold.it/1080x760"
-                                                        alt="" />
-                                                    <div
-                                                        class="carousel-caption">
-                                                        <h1>Promo Image:
-                                                            Student Life</h1>
-                                                        <p>Promotional
-                                                            Copy/Caption</p>
-                                                        <a
-                                                            class="btn btn-lg btn-primary"
-                                                            href="placeholder.php"
-                                                            role="button">Learn
-                                                            More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- /.carousel-inner -->
-                                            <!--  Next and Previous controls below
-        href values must reference the id for this carousel -->
-                                            <a
-                                                class="left carousel-control"
-                                                href="#this-carousel-id"
-                                                data-slide="prev"><span
-                                                class="glyphicon glyphicon-chevron-left"></span></a>
-                                            <a
-                                                class="right carousel-control"
-                                                href="#this-carousel-id"
-                                                data-slide="next"><span
-                                                class="glyphicon glyphicon-chevron-right"></span></a>
-                                        </div> <!-- /.carousel -->
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne"
-                                    class="panel-collapse collapse in"></div>
-                            </div>
-                        </div>
+                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="placeholder" src="images/logo-v.jpg" alt="Greater Expectations" title="Chelsea School: Greater Expectations">
+      
+    </div>
+    
+    <div class="item">
+      <img class="placeholder" src="http://placehold.it/300x150" alt="Promo Placeholder" title="Chelsea School: Promo Shot">
+      
+    </div>
+     <div class="item">
+     <img clas="placeholder" src="http://placehold.it/300x150" alt="Promo Placeholder" title="Chelsea School: Promo Shot">
+     </div> 
+          <div class="item">
+      <img class="placeholder" src="http://placehold.it/300x150" alt="Promo Placeholder" title="Chelsea School: Promo Shot">
+      
+    </div>
+    </div>  
+    
 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
 
-
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse"
-                                        data-parent="#accordion"
-                                        href="#collapseTwo">
-                                        <p>Navigation</p>
-                                    </a>
-                                </h4>
-                            </div>
+                             
+</div>
                             <div id="collapseTwo"
                                 class="panel-collapse collapse in">
                                 <div class="panel-body">
@@ -257,8 +188,9 @@ require_once 'includes/metadata_functions.php';
                                             Meet Chelsea School
                                         </a> <a type="button"
                                             class="btn btn-default btn-block"
-                                            href="admissions.php"> <i class="fa fa-file-text-o"></i>
-                                            
+                                            href="admissions.php"> <i
+                                            class="fa fa-file-text-o"></i>
+
                                             Admissions
                                         </a> <a type="button"
                                             class="btn btn-default btn-block"
@@ -267,10 +199,10 @@ require_once 'includes/metadata_functions.php';
                                             Families &amp; Students
                                         </a> <a type="button"
                                             class="btn btn-default btn-block"
-                                            href="family.php"><i class="fa fa-graduation-cap"></i>
-                                        
-                                            Alumni
-                                        </a> <a type="button"
+                                            href="family.php"><i
+                                            class="fa fa-graduation-cap"></i>
+
+                                            Alumni </a> <a type="button"
                                             class="btn btn-default btn-block"
                                             href="calendar.php"> <i
                                             class="fa fa-calendar"></i>

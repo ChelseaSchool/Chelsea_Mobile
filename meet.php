@@ -54,8 +54,6 @@ require_once 'includes/metadata_functions.php';
     $('#administration a[href="#administration"]').tab('show') // Select tab by name   
     </script> 
     
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>   
   </head>
 <body>
 

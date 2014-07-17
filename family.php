@@ -42,8 +42,7 @@ require_once 'includes/metadata_functions.php';
 <meta name='viewport'
     content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<?php write_bottom_padding(); ?>
-<?php write_top_padding(); ?>
+
 </head>
 
 <body>

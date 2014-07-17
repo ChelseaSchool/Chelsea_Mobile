@@ -59,10 +59,6 @@ require_once 'includes/metadata_functions.php';
                             href="#alumintro"
                             title="Permalink to this headline">¶</a><div class="placeholder">
                                         <p>
-                                            <img class="img-responsive"
-                                                alt="placeholder"
-                                                title="Placeholder for Relevant Image"
-                                                src="http://placehold.it/300x150">
                                         </p>
                                     </div>
                     </h1>
@@ -78,11 +74,14 @@ require_once 'includes/metadata_functions.php';
                         book. It has survived not only five centuries,
                         ...</p>
 
-                    <div class="placeholder">
-                        <p>
-                            <img alt="placeholder"
-                                title="Placeholder for Title"
-                                src="http://placehold.it/300x150">
+                           <div class="placeholder">
+                                        <p>
+                                            <img class="img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
+                                        </p>
+                                    </div>
                         </p>
 
                     </div>

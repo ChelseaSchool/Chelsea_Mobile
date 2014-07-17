@@ -142,6 +142,10 @@ require_once 'includes/metadata_functions.php';
                             tellus. Sed bibendum felis sed ante
                             volutpat, in hendrerit enim hendrerit. Nulla
                             blandit ultricies leo a tincidunt.</p>
+                            <style>
+                            .placeholder {text-align: center}
+                            </style>
+                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
                     </div>
                     <div class="section" id="open-house-events">
                         <h2>
@@ -169,6 +173,10 @@ require_once 'includes/metadata_functions.php';
                             tellus. Sed bibendum felis sed ante
                             volutpat, in hendrerit enim hendrerit. Nulla
                             blandit ultricies leo a tincidunt.</p>
+                            <style>
+                            .placeholder {text-align: center}
+                            </style>
+                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
                     </div>
                     <div class="section" id="admissions-process">
                         <h2>
@@ -196,6 +204,10 @@ require_once 'includes/metadata_functions.php';
                             tellus. Sed bibendum felis sed ante
                             volutpat, in hendrerit enim hendrerit. Nulla
                             blandit ultricies leo a tincidunt.</p>
+                            <style>
+                            .placeholder {text-align: center}
+                            </style>
+                            <div class="placeholder"><p><img text-align: center; alt="placeholder" title="Placeholder for Title" src="http://placehold.it/350x150"></p></div>
                     </div>
                 </div>
 

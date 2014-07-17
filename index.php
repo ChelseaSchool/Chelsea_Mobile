@@ -40,7 +40,7 @@ require_once 'includes/metadata_functions.php';
 
 <!-- FontAwesome Resources -->
 <link
-    href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"
     rel="stylesheet">
 
 
@@ -268,7 +268,7 @@ require_once 'includes/metadata_functions.php';
                                         </a> <a type="button"
                                             class="btn btn-default btn-block"
                                             href="family.php"> <i
-                                            class="fa fa-users"></i>&nbsp;
+                                            class="fa fa-graduation-cap"></i>&nbsp;
                                             Alumni
                                         </a> <a type="button"
                                             class="btn btn-default btn-block"

@@ -71,7 +71,7 @@ require_once 'includes/metadata_functions.php';
 
                     <div class="section" id="id1">
                         <h2>
-                            <a class="reference external"
+                            <a class="btn btn-default"
                                 href="http://google.com/calendar"><i
                                 class="fa fa-external-link"></i>
                                 Academic Calendar</a><a
@@ -81,7 +81,7 @@ require_once 'includes/metadata_functions.php';
                     </div>
                     <div class="section" id="id2">
                         <h2>
-                            <a class="reference external"
+                            <a class="btn btn-default"
                                 href="http://google.com/calendar"><i
                                 class="fa fa-external-link"></i>
                                 Athletic Calendar</a><a
@@ -91,13 +91,14 @@ require_once 'includes/metadata_functions.php';
                     </div>
                     <div class="section" id="id3">
                         <h2>
-                            <a class="reference external"
+                            <a class="btn btn-default"
                                 href="http://google.com/calendar"><i
                                 class="fa fa-external-link"></i> Events
                                 Calendar</a><a class="headerlink"
                                 href="#id3"
                                 title="Permalink to this headline">¶</a>
-                        </h2>
+                        </h2>  <p>
+                            
                     </div>
                 </div>
 

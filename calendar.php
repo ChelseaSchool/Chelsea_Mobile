@@ -98,9 +98,7 @@ require_once 'includes/metadata_functions.php';
                                 href="#id3"
                                 title="Permalink to this headline">¶</a>
                         </h2>  <p>
-                            <button type="button"
-                                class="btn btn-default btn-success"</button>
-                        </p>
+                            
                     </div>
                 </div>
 

@@ -16,15 +16,7 @@ require_once 'includes/metadata_functions.php';
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="css/chelsea.css" type="text/css" />
-<script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.php',
-        HAS_SOURCE:  true
-      };
-    </script>
+
 <script type="text/javascript" src="_static/jquery.js"></script>
 <script type="text/javascript" src="_static/underscore.js"></script>
 <script type="text/javascript" src="_static/doctools.js"></script>
@@ -44,14 +36,14 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 
 <!-- Tabs -->
-<!--  <script type="text/javascript">
+<script type="text/javascript">
     $( document ).ready()
 	$('#buttons a[href="#admissions"]').tab('show') // Select tab by name
-    $('#contents a[href="#tours"]').tab('show') // Select tab by name 
-    $('#contact a[href="#visits"]').tab('show') // Select tab by name  
-    $('#contact a[href="#open-house-events"]').tab('show') // Select tab by name 
-    $('#contact a[href="#admissions-process"]').tab('show') // Select tab by name   
-</script>-->
+    $('#tours a[href="#tours"]').tab('show') // Select tab by name 
+    $('#visits a[href="#visits"]').tab('show') // Select tab by name  
+    $('#open-house-events a[href="#open-house-events"]').tab('show') // Select tab by name 
+    $('#admission-process a[href="#admissions-process"]').tab('show') // Select tab by name   
+</script>
 <!-- End Tabs -->
 <?php //write_bottom_padding(); ?>
 <?php //write_top_padding(); ?>
@@ -62,15 +54,19 @@ require_once 'includes/metadata_functions.php';
         <div class="row">
             <div class="col-md-12">
                 <!-- Nav tabs -->
+                
+
+                
+                
                 <div class="nav">
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs" role="tablist">
                         <li class="active"><a href="#tours"
                             data-toggle="tab">Tours</a></li>
                         <li><a href="#visits" data-toggle="tab">Visits</a></li>
                         <li><a href="#open-house-events"
                             data-toggle="tab">Open-House Events</a></li>
                         <li><a href="#admissions-process"
-                            data-toggle="tab">Admission Process</a></li>
+                            data-toggle="tab">Process</a></li>
                     </ul>
                 </div>
 
@@ -102,7 +98,7 @@ require_once 'includes/metadata_functions.php';
                                 felis mollis tempor. Nullam fringilla,
                                 quam a sollicitudin malesuada...</p>
                             <div class="tab-content">
-                                <div class="tab-pane active" id="tours">
+                                <div class="tab-pane" id="tours">
                                     <h2>
                                         Tours<a class="headerlink"
                                             href="#tours"

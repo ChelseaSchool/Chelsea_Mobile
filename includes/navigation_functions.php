@@ -10,6 +10,8 @@
  */
 function write_top_navbar()
 {
+
+    
     $top = <<<EOF
 <nav class="navbar navbar-default navbar-inverse" role="navigation">
   <div class="container-fluid">
@@ -28,19 +30,19 @@ function write_top_navbar()
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
 
-        <li class="dropdown">
+        <!--<li class="dropdown">
           <a href="about.php" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="about.php#about">About Chelsea School</a></li>
             <li><a href="about.php#philosophy">Philosophy</a></li>
             <li><a href="about.php#history">History</a></li>
             <li><a href="about.php#news">News</a></li>
-         </ul>
+         </ul>-->
 
 
         </li>
         <!--End About-->
-        <!--Start Meet-->
+        <!--<!--Start Meet
         <li class="dropdown">
             
                 <a href="meet.php" class="dropdown-toggle" data-toggle="dropdown">Meet Chelsea School <span class="caret"></span></a>
@@ -51,10 +53,10 @@ function write_top_navbar()
                     <li><a href="meet.php#administration">Administration</a></li>
                     <li><a href="meet.php#staff">Staff</a></li>
         </ul>
-       </li>
+       </li>-->
        <!--End Meet Chelsea-->
         <!--Start Admissions-->
-        <li class="dropdown">
+        <!--<li class="dropdown">
             
                 <a href="admissions.php" class="dropdown-toggle" data-toggle="dropdown">Admissions <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -63,10 +65,10 @@ function write_top_navbar()
                     <li><a href="admissions.php#visits">Visits</a></li>        
                     <li><a href="admissions.php#admissions-process">Admission Process</a></li>
             </ul>
-       </li>               
+       </li>-->               
        <!--End Admissions-->
        <!--Begin Students & Families-->
-        <li class="dropdown">
+        <!--<li class="dropdown">
             
                 <a href="family.php" class="dropdown-toggle" data-toggle="dropdown">Students & Families <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -77,9 +79,14 @@ function write_top_navbar()
                     <li><a href="family.php#">Tech Support</a></li>
 
             </ul>
-       </li>
+       </li>-->
        <!--End students and families-->
-                       <li><a alt="alum" title="Alumni Services" href="alum.php">Alumni</a></li>
+         <li><a alt="about" title="About Chelsea School" href="about.php">About Chelsea School</a></li>
+         <li><a alt="meet" title="Meet Chelsea School" href="meet.php">Meet Chelsea School</a></li>
+         <li><a alt="Student and Family Resources" title="Student & Family" href="family.php">Student &amp; Family Resources</a></li>
+                     
+        
+        <li><a alt="alum" title="Alumni Services" href="alum.php">Alumni</a></li>
                        <li><a href="calendars.php">Calendars</a></li>
 <li><a href="site.php">About this Site</a></li>
 <li><a href="social.php" title="Chelsea School around the Web">Social Media</a></li>
@@ -93,6 +100,7 @@ function write_top_navbar()
   </div><!-- /.container-fluid -->
 </nav>
 EOF;
+    echo $tabs;
     echo $top;
 }
 

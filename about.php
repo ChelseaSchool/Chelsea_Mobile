@@ -78,7 +78,14 @@ require_once 'includes/metadata_functions.php';
                                 href="#about-chelsea-school"
                                 title="Permalink to this headline">&nbsp;<small><span
                                     class="glyphicon glyphicon-link"></span></small></a>
-                        </h1>
+                        </h1><div class="placeholder">
+                                        <p>
+                                            <img class="img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
+                                        </p>
+                                    </div>
 
                         <p>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Donec sed erat sit amet

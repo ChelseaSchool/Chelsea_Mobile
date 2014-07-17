@@ -55,17 +55,28 @@ require_once 'includes/metadata_functions.php';
 <div class="row">
 
 <!-- column 1 -->
-<div class="col-xs-4 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://facebook.com" title="Chelsea on Facebook" alt="Facebook"><i class="fa fa-facebook-square fa-5x"></i></p></a>
+<div class="col-xs-2 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://facebook.com" title="Chelsea on Facebook" alt="Facebook"><i class="fa fa-facebook-square fa-3x"></i></p></a>
 
 </div>
 
 <!-- column 2 -->
-<div class="col-xs-4 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://linkedin.com" title="Chelsea on LinkedIn" alt="LinkedIn"><i class="fa fa-linkedin-square fa-5x"></i></i></p></a>
+<div class="col-xs-2 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://linkedin.com" title="Chelsea on LinkedIn" alt="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></i></p></a>
 
 </div>
 
 <!-- column 3 -->
-<div class="col-xs-4 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://facebook.com" title="Chelsea on Facebook" alt="Facebook"><i class="fa fa-facebook-square fa-5x"></i></a>
+<div class="col-xs-2 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://twitter.com" title="Chelsea on twitter" alt="twitter"><i class="fa fa-twitter fa-3x"></i></a></p></a>
+</div>
+</div>
+<div class="row">
+<!-- column 4 -->
+<div class="col-xs-2 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://youtube.com" title="Chelsea on youtube" alt="youtube"><i class="fa fa-youtube fa-3x"></i></a></p></a>
+</div>
+<!-- column 5 -->
+<div class="col-xs-2 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://plus.google.com" title="Chelsea on plus.google" alt="google+"><i class="fa fa-google-plus fa-3x"></i></a></p></a>
+</div>
+<!-- column 6 -->
+<div class="col-xs-2 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="http://github.com" title="Chelsea on github" alt="github"><i class="fa fa-github fa-3x"></i></a></p></a>
 
 </div>
 

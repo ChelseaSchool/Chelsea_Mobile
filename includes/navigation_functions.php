@@ -37,6 +37,7 @@ function write_top_navbar()
             <li><a href="about.php#news">News</a></li>
          </ul>
 
+
         </li>
         <!--End About-->
         <!--Start Meet-->

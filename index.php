@@ -116,7 +116,7 @@ require_once 'includes/metadata_functions.php';
 
                                 <a data-toggle="collapse"
                                     data-parent="#accordion"
-                                    href="#collapseOne"> Gallery <small>Close</small>
+                                    href="#collapseOne"> Gallery <small>Toggle Open/Close</small>
 
                                 </a>
                             </h4>
@@ -169,6 +169,15 @@ require_once 'includes/metadata_functions.php';
 
                              
 </div>
+        
+</div>
+</div>
+        
+                 <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Navigation</h4>
+        
+        
                             <div id="collapseTwo"
                                 class="panel-collapse collapse in">
                                 <div class="panel-body">

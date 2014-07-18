@@ -92,7 +92,7 @@ function write_top_navbar()
 <li><a href="site.php">About this Site</a></li>
 <li><a href="social.php" title="Chelsea School around the Web">Social Media</a></li>
 <li><a href="calendar.php" title="Calendars">Calendars</a></li>
-      
+<li><a href="contact.php" title="Our Contact Information">Contact</a></li>      
         
             
 
@@ -112,101 +112,47 @@ EOF;
 function write_bottom_navbar()
 {
     $bottom = <<<EOF
-<nav id="bottom-navbar" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-        	<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          		<span class="icon-bar"></span>
-          		<span class="icon-bar"></span>
-          		<span class="icon-bar"></span>
-        	</button>
-        <a class="navbar-brand" href="index.php">Chelsea School</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
+
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default navbar-fixed-bottom navbar-inverse" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="#">Project name</a>-->
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.php">Home</a></li>
+              <li><a href="contact.php">Contact</a></li>
+              <li><a href="social.php">Social</a></li>
+              <li><a href="news.php">News</a></li>      
+        <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default</a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
       </div>
- 	
-	<div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-				<li class="dropdown-toggle dropup">Social Networks</li>
-				<li><a href=".php"></a></li>
-                <li><a href="./"></a></li>
-  				<!-- Social Media-->
-				<li class="dropdown globaltoc-container">
-  				<a href="#" class="dropdown-toggle dropup" data-toggle="dropdown">Social Networks <b class="caret"></b></a>
-  			<ul class="dropdown-menu dropup"><ul>
-				<li class="toctree-l1"><a class="reference internal" href="about.php">Facebook</a><ul>
-				<li class="toctree-l2"><a class="reference internal" href="about.php#philosophy">Twitter</a></li>
-				<li class="toctree-l2"><a class="reference internal" href="about.php#history">LinkedIn</a></li>
-			</ul>
-		</li>
-
-</ul>
-</li>
-              
-            
-            
-            
-            
-            
-          </ul>
-			<!--End Social Media-->          
-            
-              <li class="dropdown">
-  <a href="#"
-     class="dropdown-toggle dropup"
-     data-toggle="dropdown">Site Menu <b class="caret"></b></a>
-  <ul class="dropdown-menu"><ul>
-<li class="toctree-l1"><a class="reference internal" href="about.php">About Chelsea School</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="about.php#philosophy">Philosophy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="about.php#history">History</a></li>
-<li class="toctree-l2"><a class="reference internal" href="about.php#news">News</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="meet.php">Meet Chelsea School</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#students">Students</a></li>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#board">Board</a></li>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#administration">Administration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="meet.php#faculty">Faculty</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="admissions.php">Admissions</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#tours">Tours</a></li>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#visits">Visits</a></li>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#open-house-events">Open House Events</a></li>
-<li class="toctree-l2"><a class="reference internal" href="admissions.php#admissions-process">Admissions Process</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="calendar.php">Calendars</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="calendar.php#id1">Academic Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="calendar.php#id2">Athletic Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="calendar.php#id3">Events Calendar</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="family.php">Family Resources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="family.php#id1">Moodle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="family.php#id2">Purchase Lunch</a></li>
-<li class="toctree-l2"><a class="reference internal" href="family.php#id3">Chelsea School Technology Guide</a></li>
-</ul>
-</li>
-</ul>
-</ul>
-</li>
-              
-            
-            
-            
-            
-            
-          </ul>
-
-          
-            
-
-          
-        
-    </div>
-	</div>
-	</nav>
 
 EOF;
     echo $bottom;

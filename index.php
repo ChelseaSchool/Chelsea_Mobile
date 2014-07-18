@@ -195,7 +195,7 @@ require_once 'includes/metadata_functions.php';
                                         <a type="button"
                                             class="btn btn-default  btn-block"
                                             href="meet.php"> <i
-                                            class="fa fa-comments-o"></i>
+                                            class="fa fa-university"></i>
                                             Meet Chelsea School
                                         </a> 
                                         
@@ -220,7 +220,8 @@ require_once 'includes/metadata_functions.php';
                                             href="alum.php"> <i
                                             class="fa fa-graduation-cap"></i>&nbsp;
                                             Alumni
-                                        </a> <a type="button"
+                                        </a>
+                                         <a type="button"
 
                                             
 
@@ -230,6 +231,22 @@ require_once 'includes/metadata_functions.php';
                                             Calendars
                                         </a>
 
+                                        
+                                        <a type="button"
+                                            class="btn btn-default btn-block"
+
+                                            href="contact.php"> <i
+                                            class="fa fa-phone-square"></i>&nbsp;
+                                            Contact Us
+                                        </a>
+                                        
+                                        <a type="button"
+                                            class="btn btn-default btn-block"
+
+                                            href="social.php"> <i
+                                            class="fa fa-comments-o"></i>&nbsp;
+                                            Social Media
+                                        </a>
                                         <!-- <a type="button" class="btn  btn-block btn-default" href="gallery.php">
           <i class="fa fa-camera"></i> Media Gallery
         </a>-->
@@ -280,7 +297,7 @@ require_once 'includes/metadata_functions.php';
                             </address>
 
                             <p>
-                                <a href="phone:1-240-467-2100">1-240-467-2100</a>
+                                <a href="tel:+12404672100">1-240-467-2100</a>
                             </p>
                             </h4>
                         </div>

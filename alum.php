@@ -55,13 +55,15 @@ require_once 'includes/metadata_functions.php';
 
                 <div class="section" id="alumintro">
                     <h1>
-                        Alumni Community<a class="headerlink"
-                            href="#alumintro"
-                            title="Permalink to this headline">¶</a><div class="placeholder">
-                                        <p>
+                        Alumni Community </h1>
+                        
+                        <p>
+                                            <img class="center-block img-responsive"
+                                                alt="placeholder"
+                                                title="Placeholder for Relevant Image"
+                                                src="http://placehold.it/300x150">
                                         </p>
-                                    </div>
-                    </h1>
+                   
 
                     
              
@@ -74,14 +76,7 @@ require_once 'includes/metadata_functions.php';
                         book. It has survived not only five centuries,
                         ...</p>
 
-                           <div class="placeholder">
-                                        <p>
-                                            <img class="img-responsive"
-                                                alt="placeholder"
-                                                title="Placeholder for Relevant Image"
-                                                src="http://placehold.it/300x150">
-                                        </p>
-                                    </div>
+                           
                         </p>
 
                     </div>

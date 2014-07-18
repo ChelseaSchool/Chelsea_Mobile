@@ -116,7 +116,7 @@ require_once 'includes/metadata_functions.php';
 
                                 <a data-toggle="collapse"
                                     data-parent="#accordion"
-                                    href="#collapseOne"> Gallery <small>Toggle Open/Close</small>
+                                    href="#collapseOne"> Gallery <small>Toggle</small>
 
                                 </a>
                             </h4>

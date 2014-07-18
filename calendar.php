@@ -58,14 +58,12 @@ require_once 'includes/metadata_functions.php';
                         Calendars<a class="headerlink" href="#calendars"
                             title="Permalink to this headline">¶</a>
                     </h1>
-      <div class="placeholder">
-                                        <p>
-                                            <img class="img-responsive"
+      <p>
+                                            <img class="center-block img-responsive"
                                                 alt="placeholder"
                                                 title="Placeholder for Relevant Image"
                                                 src="http://placehold.it/300x150">
                                         </p>
-                                    </div>
                         </p>
                     </div>
 

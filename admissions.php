@@ -132,14 +132,12 @@ require_once 'includes/metadata_functions.php';
                                         tincidunt.</p>
 
 
-                                    <div class="placeholder">
-                                        <p>
-                                            <img class="img-responsive"
+                                    <p>
+                                            <img class="center-block img-responsive"
                                                 alt="placeholder"
                                                 title="Placeholder for Relevant Image"
                                                 src="http://placehold.it/300x150">
                                         </p>
-                                    </div>
 
                                 </div>
 

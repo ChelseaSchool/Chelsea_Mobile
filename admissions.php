@@ -79,11 +79,7 @@ require_once 'includes/metadata_functions.php';
 
 
 
-                            <!-- <div class="section" id="admissions">
-                    <h1>
-                        Admissions<a class="headerlink"
-                            href="#admissions"
-                            title="Permalink to this headline">¶</a>-->
+                    
 
 
 
@@ -217,10 +213,7 @@ require_once 'includes/metadata_functions.php';
                                 <div class="tab-pane"
                                     id="admissions-process">
                                     <h2>
-                                        Admission Process<a
-                                            class="headerlink"
-                                            href="#admissions-process"
-                                            title="Permalink to this headline">¶</a>
+                                        Admission Process
                                     </h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.

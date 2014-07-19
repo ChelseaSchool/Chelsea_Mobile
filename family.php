@@ -17,15 +17,7 @@ require_once 'includes/metadata_functions.php';
 
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
-<script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.php',
-        HAS_SOURCE:  true
-      };
-    </script>
+
 <script type="text/javascript" src="_static/jquery.js"></script>
 <script type="text/javascript" src="_static/underscore.js"></script>
 <script type="text/javascript" src="_static/doctools.js"></script>
@@ -55,9 +47,7 @@ require_once 'includes/metadata_functions.php';
 
                 <div class="section" id="family-resources">
                     <h1>
-                        Family Resources<a class="headerlink"
-                            href="#family-resources"
-                            title="Permalink to this headline">¶</a>
+                        Family Resources
                     </h1>
                     
                                 <div class="placeholder">
@@ -74,9 +64,7 @@ require_once 'includes/metadata_functions.php';
                     <div class="section" id="id1">
                         <h2>
                             <a class="reference external"
-                                href="http://chelseapride.org">Moodle</a><a
-                                class="headerlink" href="#id1"
-                                title="Permalink to this headline">¶</a>
+                                href="http://chelseapride.org">Moodle</a>
                         </h2>
                         <p>
                             Moodle, or <a href="http://chelseapride.org"
@@ -90,9 +78,7 @@ require_once 'includes/metadata_functions.php';
                         <h2>
                             <a class="reference external"
                                 href="http://chelseaschool.edu">Purchase
-                                Lunch</a><a class="headerlink"
-                                href="#id2"
-                                title="Permalink to this headline">¶</a>
+                                Lunch</a>
                         </h2>
                         <p>
                             <button type="button"
@@ -104,9 +90,7 @@ require_once 'includes/metadata_functions.php';
                         <h2>
                             <a class="reference external"
                                 href="http://chelseaschool.edu/techguide">Chelsea
-                                School Technology Guide</a><a
-                                class="headerlink" href="#id3"
-                                title="Permalink to this headline">¶</a>
+                                School Technology Guide</a>
                         </h2>
                         <p>Contrary to popular belief, Lorem Ipsum is
                             not simply random text. It has roots in a
@@ -132,9 +116,7 @@ require_once 'includes/metadata_functions.php';
                     <div class="section" id="id4">
                         <h2>
                             <a class="reference external"
-                                href="https://chelseaschool.powerschool.com/public">PowerSchool</a><a
-                                class="headerlink" href="#id3"
-                                title="Permalink to this headline">-</a>
+                                href="https://chelseaschool.powerschool.com/public">PowerSchool</a>
                         </h2>
                         <p>Students, guardians, parents are encouraged
                             to log in to PowerSchool weekly to celebrate

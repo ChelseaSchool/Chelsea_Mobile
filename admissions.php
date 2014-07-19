@@ -47,24 +47,24 @@ require_once 'includes/metadata_functions.php';
 <!-- End Tabs -->
 <?php //write_bottom_padding(); ?>
 <?php //write_top_padding(); ?>
-  </head>
+</head>
 <body>
-<?php write_top_navbar(); ?>
-<div class="container">
+    <?php write_top_navbar(); ?>
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <!-- Nav tabs -->
-                
 
-                
-                
+
+
+
                 <div class="nav">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="active"><a href="#tours"
                             data-toggle="tab">Tours</a></li>
                         <li><a href="#visits" data-toggle="tab">Visits</a></li>
-                        <li><a href="#open-house"
-                            data-toggle="tab">Open House</a></li>
+                        <li><a href="#open-house" data-toggle="tab">Open
+                                House</a></li>
                         <li><a href="#admissions-process"
                             data-toggle="tab">Process</a></li>
                     </ul>
@@ -79,7 +79,7 @@ require_once 'includes/metadata_functions.php';
 
 
 
-                    
+
 
 
 
@@ -89,15 +89,14 @@ require_once 'includes/metadata_functions.php';
                                 Admissions <small>(Sticky Intro
                                     Placeholer)</small>
                             </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Donec sed erat sit amet
-                                felis mollis tempor. Nullam fringilla,
-                                quam a sollicitudin malesuada...</p>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Donec sed
+                                erat sit amet felis mollis tempor.
+                                Nullam fringilla, quam a sollicitudin
+                                malesuada...</p>
                             <div class="tab-content">
                                 <div class="tab-pane" id="tours">
-                                    <h2>
-                                        Tours
-                                    </h2>
+                                    <h2>Tours</h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.
                                         Donec sed erat sit amet felis
@@ -129,20 +128,19 @@ require_once 'includes/metadata_functions.php';
 
 
                                     <p>
-                                            <img class="center-block img-responsive"
-                                                alt="placeholder"
-                                                title="Placeholder for Relevant Image"
-                                                src="http://placehold.it/300x150">
-                                        </p>
+                                        <img
+                                            class="center-block img-responsive"
+                                            alt="placeholder"
+                                            title="Placeholder for Relevant Image"
+                                            src="http://placehold.it/300x150">
+                                    </p>
 
                                 </div>
 
 
                                 <div class="tab-pane" id="visits">
 
-                                    <h2>
-                                        Visits
-                                    </h2>
+                                    <h2>Visits</h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.
                                         Donec sed erat sit amet felis
@@ -174,11 +172,8 @@ require_once 'includes/metadata_functions.php';
                                 </div>
 
 
-                                <div class="tab-pane"
-                                    id="open-house">
-                                    <h2>
-                                        Open House Events
-                                    </h2>
+                                <div class="tab-pane" id="open-house">
+                                    <h2>Open House Events</h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.
                                         Donec sed erat sit amet felis
@@ -212,9 +207,7 @@ require_once 'includes/metadata_functions.php';
 
                                 <div class="tab-pane"
                                     id="admissions-process">
-                                    <h2>
-                                        Admission Process
-                                    </h2>
+                                    <h2>Admission Process</h2>
                                     <p>Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit.
                                         Donec sed erat sit amet felis

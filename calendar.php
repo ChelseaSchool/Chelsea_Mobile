@@ -54,49 +54,47 @@ require_once 'includes/metadata_functions.php';
             <div class="col-md-12">
 
                 <div class="section" id="calendars">
-                    <h1>
-                        Calendars
-                    </h1>
-      <p>
-                                            <img class="center-block img-responsive"
-                                                alt="placeholder"
-                                                title="Placeholder for Relevant Image"
-                                                src="http://placehold.it/300x150">
-                                        </p>
-                      
-                    </div>
+                    <h1>Calendars</h1>
+                    <p>
+                        <img class="center-block img-responsive"
+                            alt="placeholder"
+                            title="Placeholder for Relevant Image"
+                            src="http://placehold.it/300x150">
+                    </p>
 
-                    <div class="section" id="id1">
-                        <h2>
-                            <a class="btn btn-block btn-default"
-                                href="http://google.com/calendar"><i
-                                class="fa fa-external-link"></i>
-                                Athletic Calendar &raquo;</a>
-                        </h2>
-                    </div>
-                    <div class="section" id="id2">
-                        <h2>
-                            <a class="btn btn-block btn-default"
-                                href="cal2014-2015.php"><i
-                                class="fa fa-external-link"></i>
-                                Academic Calendar &raquo;</a>
-                        </h2>
-                    </div>
-                    <div class="section" id="id3">
-                        <h2>
-                            <a class="btn btn-block btn-default"
-                                href="http://google.com/calendar"><i
-                                class="fa fa-external-link"></i> Events
-                                Calendar &raquo;</a>
-                        </h2>  <p>
-                            
-                    </div>
                 </div>
 
-
+                <div class="section" id="id1">
+                    <h2>
+                        <a class="btn btn-block btn-default"
+                            href="http://google.com/calendar"><i
+                            class="fa fa-external-link"></i> Athletic
+                            Calendar &raquo;</a>
+                    </h2>
+                </div>
+                <div class="section" id="id2">
+                    <h2>
+                        <a class="btn btn-block btn-default"
+                            href="cal2014-2015.php"><i
+                            class="fa fa-external-link"></i> Academic
+                            Calendar &raquo;</a>
+                    </h2>
+                </div>
+                <div class="section" id="id3">
+                    <h2>
+                        <a class="btn btn-block btn-default"
+                            href="http://google.com/calendar"><i
+                            class="fa fa-external-link"></i> Events
+                            Calendar &raquo;</a>
+                    </h2>
+                    <p>
+                
+                </div>
             </div>
 
+
         </div>
+
     </div>
         <?php write_footer(); ?>
 </body>

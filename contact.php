@@ -2,7 +2,6 @@
 require_once 'includes/navigation_functions.php';
 require_once 'includes/metadata_functions.php';
 
-
 ?>
 <!DOCTYPE html>
 
@@ -26,7 +25,7 @@ require_once 'includes/metadata_functions.php';
 <link rel="stylesheet"
     href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="css/chelsea.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <script type="text/javascript" src="js/tabs.min.js"></script>
 <script type="text/javascript" src="_static/jquery.js"></script>
@@ -48,17 +47,24 @@ require_once 'includes/metadata_functions.php';
 <body>
 <?php write_top_navbar(); ?>
 <div class="container">
-<h2>Chelsea School</h2>
-<p>Depending on your device, clicking the phone number should start a call to our office.</p>
-<p>Again, depending on your device, clicking on the address should bring up Chelsea School's location in your mapping software.</p>
-                            <h3>Postal Address</h3>
-                            <p><address>
-                                Suite 300<br> 2970 Belcrest Center Drive<br>
-                                Hyattsville, Maryland 20782
-                            </address></p>
-<h3>Telephone</h3>
-                            <p>
-                                <a href="tel:+12404672100">1-240-467-2100</a>
-                            </p>
-</div>
+        <h2>Chelsea School</h2>
+        <p>Depending on your device, clicking the phone number should
+            start a call to our office.</p>
+        <p>Again, depending on your device, clicking on the address
+            should bring up Chelsea School's location in your mapping
+            software.</p>
+        <h3>Postal Address</h3>
+        <p>
+        
+        
+        <address>
+            Suite 300<br> 2970 Belcrest Center Drive<br> Hyattsville,
+            Maryland 20782
+        </address>
+        </p>
+        <h3>Telephone</h3>
+        <p>
+            <a href="tel:+12404672100">1-240-467-2100</a>
+        </p>
+    </div>
 </body>

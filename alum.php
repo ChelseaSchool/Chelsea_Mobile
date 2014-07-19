@@ -80,7 +80,7 @@ require_once 'includes/metadata_functions.php';
                         </p>
 
                     </div>
-<h1>Alumni Services</h1>
+
 <p><a type="button" class="btn btn-default btn-block" href="https://www.google.com/a/chelseapride.org/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/chelseapride.org/&ss=1&ltmpl=default&ltmplcache=2&emr=1"><span class="glyphicon glyphicon-envelope"></span> Access Chelsea Email Account &raquo; </a></p>
 <p><a type="button" class="btn btn-default btn-block" href="http://chelseapride.org/helpdesk" title="Contact Helpdesk if you have trouble with your Chelsea accounts"><span class="glyphicon glyphicon-hdd"></span> Tech Support (Helpdesk) &raquo;</a></p>
 <p><a type="button" class="btn btn-default btn-block" href="mailto:information@chelseaschool.edu" title="Career Support Placeholder"><span class="glyphicon glyphicon-briefcase"></span> Career Support &raquo; </a>
@@ -90,8 +90,7 @@ require_once 'includes/metadata_functions.php';
 
         </div>
 
-    </div>
-    </div>
+  
         <?php write_footer(); ?>
 </body>
 </html>

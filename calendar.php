@@ -17,15 +17,7 @@ require_once 'includes/metadata_functions.php';
 
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
-<script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.php',
-        HAS_SOURCE:  true
-      };
-    </script>
+
 <script type="text/javascript" src="_static/jquery.js"></script>
 <script type="text/javascript" src="_static/underscore.js"></script>
 <script type="text/javascript" src="_static/doctools.js"></script>
@@ -66,7 +58,7 @@ require_once 'includes/metadata_functions.php';
 
                 <div class="section" id="id1">
                     <h2>
-                        <a class="btn btn-block btn-default"
+                        <a disabled class="btn btn-block btn-default"
                             href="http://google.com/calendar"><i
                             class="fa fa-external-link"></i> Athletic
                             Calendar &raquo;</a>
@@ -82,7 +74,7 @@ require_once 'includes/metadata_functions.php';
                 </div>
                 <div class="section" id="id3">
                     <h2>
-                        <a class="btn btn-block btn-default"
+                        <a disabled class="btn btn-block btn-default"
                             href="http://google.com/calendar"><i
                             class="fa fa-external-link"></i> Events
                             Calendar &raquo;</a>

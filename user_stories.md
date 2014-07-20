@@ -6,13 +6,13 @@
 
 By convention, the template is as follows. These statements combine to form what used to be called software requirements.
 
-	As [some kind of user] I want to be able to [do something specific] for [these reasons].
+	As {some kind of user} I want to be able to {do something specific} for {these reasons}.
 
 Creating user stories without collaboration with the stakeholders ultimately undermines the purpose of this development strategy.
 
 Nevertheless, I'm putting forward some suggestions - please feedback.
 
-#### User Stories
+#### Proposed User Stories
 
 [ ] As a content administrator, I need a "control panel" through which I can easily manage content to prevent the user experience from becoming stale.
 
@@ -24,11 +24,12 @@ Nevertheless, I'm putting forward some suggestions - please feedback.
 
 [ ] As a content manager, I want to manipulate site *content* (edit or add) so it adds value to the site for users.
 
-[ ] As a content manager, I want the option to write *content* (only content) in plain text.
+[ ] As a content manager, I want the option to write *content* (only content) in plain text to make content updates as fluid and efficient as possible.
 
-[ ] As a content manager, I want the option to write *content* (only content) in HTML.
+[ ] As a content manager, I want the option to write *content* (only content) in HTML to make content updates as fluid and efficient as possible.
 
-[ ] As a content manager, I want the option to write *content* (only content) in markdown.
+
+[ ] As a content manager, I want the option to write *content* (only content) in markdown to make content updates as fluid and efficient as possible.
 
 [ ] As a systems administrator, I want to manipulate style & appearance by directly editing CSS/HTML5/PHP.
 
@@ -44,12 +45,11 @@ Nevertheless, I'm putting forward some suggestions - please feedback.
 
 [ ] As a content manager and school administrator, I want assurance that the mobile site developers will make every effort to make the site accessible so that it reaches precisely the audience whose attention we'd like.
 
-[ ] As a guest, I want to access the site on a mobile phone using Firefox Mobile, Chrome, or Safari so that it can be frequently accessed from anywhere 3G and 4G is available.
+[ ] As a guest, I want to access the site on a mobile phone using Firefox Mobile, Chrome, or Safari so that it can be frequently accessed from anywhere 3G and 4G is available for the compatible device.
 
 [ ] As a Head of School, I want the login to be protected by SSL (secure HTTP) so privileged users' passwords can't be clearly read by outsiders.
 
 [ ] As a content manager, I want to be able to manipulate site content with the assurance that I'm not interfering with style (appearance, theme) or structure.
-
 
 
 

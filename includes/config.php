@@ -1,6 +1,28 @@
 <?php
+
+/**
+ * Configuration Variables
+ *
+ * Defines organization, brand, address, other stuff perceived to be static
+ *
+ * PHP version 5
+ *
+ * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
+ * @copyright   2014 Chelsea School
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ *
+ */
+
+/**
+ * web app base URI
+ * 
+ */
 $base_uri = "../"; // why change?
 
+/**
+ * URI of full organization site
+ * 
+ */
 $desktop_site = "http://chelseaschool.edu";
 
 // Organization Vars

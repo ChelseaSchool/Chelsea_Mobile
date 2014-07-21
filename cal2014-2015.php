@@ -1,7 +1,32 @@
 <?php
+
+/**
+ * @file
+ *
+ * @brief Academic Calendar
+ *
+ * @detail Uses table, table-striped, table-hover classes
+ *
+ * PHP version 5
+ *
+ * @category    Calendars
+ * @package     frontend
+ * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
+ * @copyright   2014 Chelsea School
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ */
+
+/** 
+ * Print navigatio bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
+
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

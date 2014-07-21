@@ -1,5 +1,29 @@
 <?php
+
+/**
+ * @file
+ *
+ * @brief Calendar Main Page
+ *
+ * @detail Links to academic calendar, athletic calendar, special events, bell schedule
+ *
+ * PHP version 5
+ *
+ * @category    calendars
+ * @package     frontend
+ * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
+ * @copyright   2014 Chelsea School
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ */
+
+/** 
+ * Print navigatio bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
 

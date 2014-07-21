@@ -1,6 +1,19 @@
-
 <?php
+/** @file
+ *  @brief placeholder
+ *  @detail
+ *  * unused
+ *
+ */
+
+/** 
+ * Print navigation bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
 

@@ -1,8 +1,23 @@
 <?php
+/** @file
+ *  @brief Social Networks
+ *  @detail
+ *  * Currently links to organization's facebook, g+, github, twitter, etc.
+ *  @todo
+ *  1. Generate links through php variables in included code
+ *
+ */
+
+/** 
+ * Print navigation bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
-
 <!DOCTYPE html>
 
 

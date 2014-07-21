@@ -1,5 +1,23 @@
 <?php
+/** @file
+ *  @brief Meet the school
+ *  @detail
+ *  @deatail
+ *  * Tabbed navigation for single page richness
+ *  * Meet students, faculty, board, administration
+ *  @todo
+ *  1. Perhaps add a staff tab
+ *
+ */
+
+/** 
+ * Print navigation bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
 

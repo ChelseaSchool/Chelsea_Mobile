@@ -1,8 +1,31 @@
 <?php
+
+/**
+ * @file
+ *
+ * @brief Photo Gallery
+ *
+ * @detail Uses carousel from bootstrap. Currenty unused as its been incorporated into index.php.
+ *
+ * PHP version 5
+ *
+ * @category    gallery
+ * @package     frontend
+ * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
+ * @copyright   2014 Chelsea School
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ */
+
+/** 
+ * Print navigation bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
-<!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">

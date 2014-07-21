@@ -1,5 +1,29 @@
 <?php
+
+/**
+ * @file
+ *
+ * @brief Admissions marketing copy and information
+ *
+ * @detail currently static; will become dynamic in later iterations
+ *
+ * PHP version 5
+ *
+ * @category    admissions
+ * @package     frontend
+ * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
+ * @copyright   2014 Chelsea School
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ */
+
+/**
+ * Require nav function
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Require metadata - but it is not called yet.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
 

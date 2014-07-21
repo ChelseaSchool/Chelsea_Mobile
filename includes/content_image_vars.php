@@ -1,43 +1,42 @@
 <?php
 
 /**
- * Text (Copy) and Image Variables
+ * @brief   Text (Copy) and Image Variables
  * 
  * Defines content that appears throughout the site. This will be replaced with a database.
  * 
  * PHP version 5
  * 
+ * @category    Content
+ * @package     backend
  * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
  * @copyright   2014 Chelsea School
- * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
- * 
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2 
+ * @todo        Decide whether every section needs "sticky" copy for other sections
  */
 
-
-/** 
+/**
  * Vertical Placeholder dimension
-*/
-
+ *
+ * string $v_placeholder_dimensions    
+ */
 $v_placeholder_dimensions = "680x1024";
 
 /**
  * Horizontal Placeholder dimension
  */
-
 $h_placholder_dimensions = "1024x680";
 
 /**
  * Horizontal placeholder URI
  */
-
 $img_h_placeholder = "http://placehold.it/$h_placholder_dimensions";
 
 /**
  * Vertical placeholder URI
  */
 
-$img_v_placeholder = "http://placehold.it/$v_placeholder_dimensions";
-
+$img_v_placeholder = "http://placehold.it/\$v_placeholder_dimensions";
 
 /**
  * Placeholder for roughly two sentences (intro, summary, etc
@@ -49,7 +48,7 @@ EOF;
 
 /**
  * Placeholder for longer copy - currently set to three paragraphs
- * 
+ *
  * Includes <a> tag to demonstrate alt, title, href use
  */
 
@@ -63,7 +62,7 @@ $longer_copy_placeholder = <<<EOF
 <p>Ut varius vel massa ac convallis. Fusce eu viverra orci. Pellentesque imperdiet augue urna, nec ullamcorper justo semper vitae. Pellentesque vulputate consectetur purus lobortis laoreet. Phasellus ornare tellus a erat mollis, id imperdiet erat congue. Morbi vel bibendum dolor. Sed viverra quam quis vestibulum lacinia. Quisque ac mollis felis. Nulla scelerisque, nisi sit amet consectetur gravida, enim mi feugiat magna, sodales aliquam libero lorem sit amet diam. Curabitur in nisi sed nisl cursus venenatis ut ac arcu. Fusce ac enim gravida ipsum tincidunt blandit non eu leo. Cras consectetur rutrum leo.</p> 
 EOF;
 
-//About Copy
+// About Copy
 
 /**
  * Copy for About > Philosophy
@@ -71,55 +70,50 @@ EOF;
 
 $about_philosophy_copy = $longer_copy_placeholder;
 
-
 /*
- * Admissions Copy follows Please use paragraph tags; 
- * <em> for emphasis and consistency; <a href... with alt and title attributes ok. 
- * Please no font, div, span, style elements. 
- * Images would be unanticipated.
+ * Admissions Copy follows Please use paragraph tags; <em> for emphasis and consistency; <a href... with alt and title attributes ok. Please no font, div, span, style elements. Images would be unanticipated.
  */
 
 /**
  * Admissions - top of every subpage
+ *
  * 
- * todo         Decide whether every section needs "sticky" copy for other sections
  */
 $admissions_sticky_copy = $brief_copy_placeholder;
 
 /**
  * Admissions copy for adminissions > Open House Events
  *
- * @todo More variables for copy for all admissions pages   
+ * @todo More variables for copy for all admissions pages
  */
 $admissions_open_house_copy = $longer_copy_placeholder;
 
 /**
  * Copy for admissions > tours
- * 
  */
 $admissions_tours_copy = $longer_copy_placeholder;
 
 /**
  * Copy for admissions > vistits
- *
  */
 $admissions_visits_copy = $longer_copy_placeholder;
 
 /**
- * 
+ *
+ *
  * Family and Students Section
- * 
- * @todo    Build rest of Family and students copy variables
-*/
+ *
+ * @todo Build rest of Family and students copy variables
+ *      
+ */
 
-/** 
+/**
  * Copy for online lunch payment modal
- * 
  */
 
 $family_lunch_copy = $brief_copy_placeholder;
 
-//Images for Gallery
+// Images for Gallery
 
 /**
  * First image for bootstrap "carousel" on index.php: intended as logo
@@ -129,14 +123,12 @@ $img_gallery_1 = "../images/logo-v.jpg";
 
 /**
  * Second image for bootstrap "carousel" on index.php
- * 
  */
 
 $img_gallery_2 = $img_h_placeholder;
 
 /**
  * Third image for bootstrap "carousel" on index.php
- * 
  */
 
 $img_gallery_3 = $img_h_placeholder;

@@ -2,14 +2,22 @@
 /** @file
  *  @brief Main landing page
  *  @detail
- *  Provides access to primary navigation, contents, perhaps search
+ *  * Provides access to primary navigation
+ *  * Uses bootstrap accordian for carousel w/ logo, navigation, and a footer
  *  @todo
- *  1. install icon (jQuery Mobile)
- *  2. Move from block buttons to icon panel for sections
+ *  1. Remove sphinx artifacts
  *  3. Request desktop site?
  *
  */
+
+/** 
+ * Print navigation bar html
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * Prints metadata for html head - currently not used.
+ */
 require_once 'includes/metadata_functions.php';
 ?>
 

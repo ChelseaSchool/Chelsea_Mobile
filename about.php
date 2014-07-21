@@ -1,7 +1,32 @@
 <?php
+
+/**
+ * @file
+ *
+ * @brief About the organization
+ *
+ *
+ * PHP version 5
+ *
+ * @category    about
+ * @package     frontend
+ * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
+ * @copyright   2014 Chelsea School
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ */
+
+/**
+ * include nav and other functions
+ */
 require_once 'includes/navigation_functions.php';
+
+/**
+ * include metadata for html head. This isn't called yet.
+ * 
+ */
 require_once 'includes/metadata_functions.php';
 ?>
+
 <!DOCTYPE html>
 
 

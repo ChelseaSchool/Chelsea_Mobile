@@ -31,15 +31,15 @@ $desktop_site = "http://chelseaschool.edu";
  */
 $organization = "Chelsea School";
 
- /**
-  * Probably the same as organization. String will appear at the top left of the navigation bar.
-  */
+/**
+ * Probably the same as organization.
+ * String will appear at the top left of the navigation bar.
+ */
 $brand = $organization; // for top navbar
 
-
 /**
- * @brief   Code generated and provided by Paypal for a payment button
- * 
+ * @brief Code generated and provided by Paypal for a payment button
+ *
  * Uses heredoc. Edit between EOF and EOF; Variables will be interpreted it. String will appear as written except: variables will be interpreted.
  */
 $paypal_code = <<<EOF
@@ -66,7 +66,7 @@ $address_city = "Hyattsville";
 
 /**
  * Part of city: Such as NY, Queens, S.E., N.E.
- * 
+ *
  * Set to null value if this isn't relevant
  */
 $address_burrough = "";
@@ -78,19 +78,20 @@ $address_zip = "20910";
 
 /**
  * Additional location information
- * 
+ *
  * May contain suite #, apartment #, floor #. Set to ""; for no value if this isn't relevant
  */
 $address_additional = "Fourth Floor";
 
 /**
- * Contact phone number. Will be used in conjunction with HTML5 tel type link.
+ * Contact phone number.
+ * Will be used in conjunction with HTML5 tel type link.
  */
 $phone = "13015851430";
 
 /**
  * Fax number.
- * 
+ *
  * Unused/null by default.
  */
 $fax = "";
@@ -124,9 +125,27 @@ $bootswatch = "cerulean";
 
 $developers = "Micah, James, Bryan, Andre, Rik Goldman, Davey Vest";
 
+// ---------Social Network URIs
 
+/**
+ * Facebook URI
+ */
+$uri_facebook = "";
 
+/**
+ * Twitter URI
+ */
+$uri_twitter = "";
 
+/**
+ * Github URI
+ */
+$uri_github = "";
+
+/**
+ * Google+ Organization URI
+ */
+$uri_google = "";
 
 
 

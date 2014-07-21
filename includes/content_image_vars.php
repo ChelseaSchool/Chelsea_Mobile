@@ -1,24 +1,24 @@
 <?php
 
 /**
+ * @file
  * @brief   Text (Copy) and Image Variables
  * 
- * Defines content that appears throughout the site. This will be replaced with a database.
+ * @detail  Defines content that appears throughout the site. This will be replaced with a database.
  * 
  * PHP version 5
  * 
- * @category    Content
+ * @category    Config
  * @package     backend
  * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
  * @copyright   2014 Chelsea School
  * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2 
- * @todo        Decide whether every section needs "sticky" copy for other sections
+ * @todo        Decide whether every section needs "sticky" copy 
  */
 
 /**
  * Vertical Placeholder dimension
- *
- * string $v_placeholder_dimensions    
+ *   
  */
 $v_placeholder_dimensions = "680x1024";
 
@@ -41,7 +41,6 @@ $img_v_placeholder = "http://placehold.it/\$v_placeholder_dimensions";
 /**
  * Placeholder for roughly two sentences (intro, summary, etc
  */
-
 $brief_copy_placeholder = <<<EOF
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 EOF;
@@ -62,7 +61,6 @@ $longer_copy_placeholder = <<<EOF
 <p>Ut varius vel massa ac convallis. Fusce eu viverra orci. Pellentesque imperdiet augue urna, nec ullamcorper justo semper vitae. Pellentesque vulputate consectetur purus lobortis laoreet. Phasellus ornare tellus a erat mollis, id imperdiet erat congue. Morbi vel bibendum dolor. Sed viverra quam quis vestibulum lacinia. Quisque ac mollis felis. Nulla scelerisque, nisi sit amet consectetur gravida, enim mi feugiat magna, sodales aliquam libero lorem sit amet diam. Curabitur in nisi sed nisl cursus venenatis ut ac arcu. Fusce ac enim gravida ipsum tincidunt blandit non eu leo. Cras consectetur rutrum leo.</p> 
 EOF;
 
-// About Copy
 
 /**
  * Copy for About > Philosophy
@@ -76,8 +74,6 @@ $about_philosophy_copy = $longer_copy_placeholder;
 
 /**
  * Admissions - top of every subpage
- *
- * 
  */
 $admissions_sticky_copy = $brief_copy_placeholder;
 
@@ -98,14 +94,7 @@ $admissions_tours_copy = $longer_copy_placeholder;
  */
 $admissions_visits_copy = $longer_copy_placeholder;
 
-/**
- *
- *
- * Family and Students Section
- *
- * @todo Build rest of Family and students copy variables
- *      
- */
+//------Student and Family Section Content
 
 /**
  * Copy for online lunch payment modal
@@ -113,7 +102,7 @@ $admissions_visits_copy = $longer_copy_placeholder;
 
 $family_lunch_copy = $brief_copy_placeholder;
 
-// Images for Gallery
+//--------Images for Gallery
 
 /**
  * First image for bootstrap "carousel" on index.php: intended as logo
@@ -124,24 +113,20 @@ $img_gallery_1 = "../images/logo-v.jpg";
 /**
  * Second image for bootstrap "carousel" on index.php
  */
-
 $img_gallery_2 = $img_h_placeholder;
 
 /**
  * Third image for bootstrap "carousel" on index.php
  */
-
 $img_gallery_3 = $img_h_placeholder;
 
 /**
  * Fourth image for bootstrap "carousel" on index.php
  */
-
 $img_gallery_4 = $img_h_placeholder;
 
 /**
  * Fifth image for bootstrap "carousel" on index.php
  */
-
 $img_gallery_5 = $img_h_placeholder;
 

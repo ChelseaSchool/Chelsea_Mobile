@@ -33,7 +33,7 @@ require_once 'includes/metadata_functions.php';
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 <!-- FontAwesome Resources -->
 <link
-    href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
     rel="stylesheet">
 
 

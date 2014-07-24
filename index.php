@@ -47,9 +47,7 @@ require_once 'includes/metadata_functions.php';
 <!-- End Tabs -->
 
 <!-- FontAwesome Resources -->
-<link
-    href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"
-    rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 
 
 <!-- jQuery Resources -->

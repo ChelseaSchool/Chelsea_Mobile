@@ -25,6 +25,8 @@ require_once 'includes/navigation_functions.php';
  * Prints metadata for html head - currently not used.
  */
 require_once 'includes/metadata_functions.php';
+
+require_once 'includes/content_image_vars.php';
 ?>
 
 <!DOCTYPE html>
@@ -57,28 +59,50 @@ require_once 'includes/metadata_functions.php';
 
   <?php write_top_navbar(); ?>
 
+<!-- Lunch Modal -->  
+
+<!-- Modal -->
+<div class="modal fade" id="lunch" tabindex="-1" role="dialog" aria-labelledby="lunch purchase" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Lunch Purchase</h4>
+      </div>
+      <div class="modal-body">
+        <?php echo $family_lunch_copy; ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Paypal Button Placeholder</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Lunch Modal -->
+  
 <div class="container">
         <div class="row">
             <div class="col-md-12">
 
-                <div class="section" id="family-resources">
+                
                     <h1>Family Resources</h1>
 
                     <div class="placeholder">
                         <p>
-                            <img class="img-responsive"
+                            <img class="center-block img-responsive"
                                 alt="placeholder"
                                 title="Placeholder for Relevant Image"
                                 src="http://placehold.it/300x150">
                         </p>
                     </div>
                     
-                </div>
+                
 
-                <div class="section" id="id1">
+                
                     <h2>
-                        <a class="reference external"
-                            href="http://chelseapride.org">Moodle</a>
+                        <a href="http://chelseapride.org">Moodle</a>
                     </h2>
                     <p>
                         Moodle, or <a href="http://chelseapride.org"
@@ -87,23 +111,28 @@ require_once 'includes/metadata_functions.php';
                         faculty at Chelsea School. Click the links to
                         access Moodle.
                     </p>
-                </div>
-                <div class="section" id="id2">
+                
+                
                     <h2>
                         <a class="reference external"
                             href="http://chelseaschool.edu">Purchase
                             Lunch</a>
                     </h2>
-                    <p>
-                        <button type="button"
-                            class="btn btn-default btn-success">paypal
-                            placeholder</button>
-                    </p>
-                </div>
-                <div class="section" id="id3">
+
+                    
+                   
+                    <div class="text-center">
+                    	<!-- Button trigger modal -->
+<button class="btn btn-default btn-success" data-toggle="modal" data-target="#lunch">
+  Launch Lunch Modal
+</button>
+</div>
+
+
+                
+                
                     <h2>
-                        <a class="reference external"
-                            href="http://chelseaschool.edu/techguide">Chelsea
+                        <a href="http://chelseaschool.edu/techguide">Chelsea
                             School Technology Guide</a>
                     </h2>
                     <p>Contrary to popular belief, Lorem Ipsum is not
@@ -123,24 +152,19 @@ require_once 'includes/metadata_functions.php';
                         first line of Lorem Ipsum, "Lorem ipsum dolor
                         sit amet..", comes from a line in section
                         1.10.32.</p>
-                </div>
-
-                <div class="section" id="id4">
+               
+                
                     <h2>
-                        <a class="reference external"
-                            href="https://chelseaschool.powerschool.com/public">PowerSchool</a>
+                        <a href="https://chelseaschool.powerschool.com/public">PowerSchool</a>
                     </h2>
                     <p>Students, guardians, parents are encouraged to
                         log in to PowerSchool weekly to celebrate
                         successes, anticipate difficulties, and develop
                         strategies for continuing success.</p>
-                </div>
-            </div>
+           
+</div>
 
-
-        </div>
-
-    </div>
+    
 <?php write_footer(); ?>
 
 <!-- JS Resources -->

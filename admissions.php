@@ -25,6 +25,8 @@ require_once 'includes/navigation_functions.php';
  * Require metadata - but it is not called yet.
  */
 require_once 'includes/metadata_functions.php';
+
+require_once 'includes/content_image_vars.php';
 ?>
 
 <!DOCTYPE html>
@@ -105,42 +107,11 @@ require_once 'includes/metadata_functions.php';
                                 Admissions <small>(Sticky Intro
                                     Placeholer)</small>
                             </h2>
-                            <p>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Donec sed
-                                erat sit amet felis mollis tempor.
-                                Nullam fringilla, quam a sollicitudin
-                                malesuada...</p>
+                            <?php echo $admissions_sticky_copy; ?>
                             <div class="tab-content">
                                 <div class="tab-pane" id="tours">
                                     <h2>Tours</h2>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit.
-                                        Donec sed erat sit amet felis
-                                        mollis tempor. Nullam fringilla,
-                                        quam a sollicitudin malesuada,
-                                        orci turpis bibendum risus,
-                                        mollis placerat augue nulla at
-                                        purus. Etiam faucibus consequat
-                                        porttitor. Praesent venenatis
-                                        urna id erat dapibus lacinia.
-                                        Maecenas blandit mollis nibh,
-                                        non pellentesque eros semper eu.
-                                        Aliquam blandit blandit
-                                        fermentum. Vivamus in urna
-                                        porttitor, facilisis neque sed,
-                                        mollis libero. Cras semper
-                                        mauris nec sollicitudin dictum.
-                                        Donec nec facilisis tellus.
-                                        Quisque volutpat sem nisl, quis
-                                        congue arcu condimentum id. Nam
-                                        viverra, ligula et auctor
-                                        ullamcorper, lectus purus
-                                        commodo velit, vel tempor nulla
-                                        urna eu tellus. Sed bibendum
-                                        felis sed ante volutpat, in
-                                        hendrerit enim hendrerit. Nulla
-                                        blandit ultricies leo a
-                                        tincidunt.</p>
+                                    <?php echo $admissions_tours_copy; ?>
 
 
                                     <p>
@@ -157,101 +128,20 @@ require_once 'includes/metadata_functions.php';
                                 <div class="tab-pane" id="visits">
 
                                     <h2>Visits</h2>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit.
-                                        Donec sed erat sit amet felis
-                                        mollis tempor. Nullam fringilla,
-                                        quam a sollicitudin malesuada,
-                                        orci turpis bibendum risus,
-                                        mollis placerat augue nulla at
-                                        purus. Etiam faucibus consequat
-                                        porttitor. Praesent venenatis
-                                        urna id erat dapibus lacinia.
-                                        Maecenas blandit mollis nibh,
-                                        non pellentesque eros semper eu.
-                                        Aliquam blandit blandit
-                                        fermentum. Vivamus in urna
-                                        porttitor, facilisis neque sed,
-                                        mollis libero. Cras semper
-                                        mauris nec sollicitudin dictum.
-                                        Donec nec facilisis tellus.
-                                        Quisque volutpat sem nisl, quis
-                                        congue arcu condimentum id. Nam
-                                        viverra, ligula et auctor
-                                        ullamcorper, lectus purus
-                                        commodo velit, vel tempor nulla
-                                        urna eu tellus. Sed bibendum
-                                        felis sed ante volutpat, in
-                                        hendrerit enim hendrerit. Nulla
-                                        blandit ultricies leo a
-                                        tincidunt.</p>
+                                    <?php echo $admissions_visits_copy; ?>
                                 </div>
 
 
                                 <div class="tab-pane" id="open-house">
                                     <h2>Open House Events</h2>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit.
-                                        Donec sed erat sit amet felis
-                                        mollis tempor. Nullam fringilla,
-                                        quam a sollicitudin malesuada,
-                                        orci turpis bibendum risus,
-                                        mollis placerat augue nulla at
-                                        purus. Etiam faucibus consequat
-                                        porttitor. Praesent venenatis
-                                        urna id erat dapibus lacinia.
-                                        Maecenas blandit mollis nibh,
-                                        non pellentesque eros semper eu.
-                                        Aliquam blandit blandit
-                                        fermentum. Vivamus in urna
-                                        porttitor, facilisis neque sed,
-                                        mollis libero. Cras semper
-                                        mauris nec sollicitudin dictum.
-                                        Donec nec facilisis tellus.
-                                        Quisque volutpat sem nisl, quis
-                                        congue arcu condimentum id. Nam
-                                        viverra, ligula et auctor
-                                        ullamcorper, lectus purus
-                                        commodo velit, vel tempor nulla
-                                        urna eu tellus. Sed bibendum
-                                        felis sed ante volutpat, in
-                                        hendrerit enim hendrerit. Nulla
-                                        blandit ultricies leo a
-                                        tincidunt.</p>
+                                    <?php echo $admissions_open_house_copy; ?>
                                 </div>
 
 
                                 <div class="tab-pane"
                                     id="admissions-process">
                                     <h2>Admission Process</h2>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit.
-                                        Donec sed erat sit amet felis
-                                        mollis tempor. Nullam fringilla,
-                                        quam a sollicitudin malesuada,
-                                        orci turpis bibendum risus,
-                                        mollis placerat augue nulla at
-                                        purus. Etiam faucibus consequat
-                                        porttitor. Praesent venenatis
-                                        urna id erat dapibus lacinia.
-                                        Maecenas blandit mollis nibh,
-                                        non pellentesque eros semper eu.
-                                        Aliquam blandit blandit
-                                        fermentum. Vivamus in urna
-                                        porttitor, facilisis neque sed,
-                                        mollis libero. Cras semper
-                                        mauris nec sollicitudin dictum.
-                                        Donec nec facilisis tellus.
-                                        Quisque volutpat sem nisl, quis
-                                        congue arcu condimentum id. Nam
-                                        viverra, ligula et auctor
-                                        ullamcorper, lectus purus
-                                        commodo velit, vel tempor nulla
-                                        urna eu tellus. Sed bibendum
-                                        felis sed ante volutpat, in
-                                        hendrerit enim hendrerit. Nulla
-                                        blandit ultricies leo a
-                                        tincidunt.</p>
+                                    <?php echo $admissions_process_copy; ?>
                                 </div>
                             </div>
 

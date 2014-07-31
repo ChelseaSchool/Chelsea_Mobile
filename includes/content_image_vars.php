@@ -61,12 +61,34 @@ $longer_copy_placeholder = <<<EOF
 <p>Ut varius vel massa ac convallis. Fusce eu viverra orci. Pellentesque imperdiet augue urna, nec ullamcorper justo semper vitae. Pellentesque vulputate consectetur purus lobortis laoreet. Phasellus ornare tellus a erat mollis, id imperdiet erat congue. Morbi vel bibendum dolor. Sed viverra quam quis vestibulum lacinia. Quisque ac mollis felis. Nulla scelerisque, nisi sit amet consectetur gravida, enim mi feugiat magna, sodales aliquam libero lorem sit amet diam. Curabitur in nisi sed nisl cursus venenatis ut ac arcu. Fusce ac enim gravida ipsum tincidunt blandit non eu leo. Cras consectetur rutrum leo.</p> 
 EOF;
 
+//****************CONTENT
+
+$meet_chelsea_intro = $brief_copy_placeholder;
+$meet_chelsea_students = $longer_copy_placeholder;
+$meet_chelsea_board = $longer_copy_placeholder;
+$meet_chelsea_faculty = $longer_copy_placeholder;
+$meet_chelsea_admin = $longer_copy_placeholder;
 
 /**
  * Copy for About > Philosophy
  */
 
 $about_philosophy_copy = $longer_copy_placeholder;
+
+/**
+ * Copy for About > Main Tab
+ */
+$about_chelsea = $brief_copy_placeholder;
+
+/**
+ * Copy for About > History
+ */
+$about_history = $longer_copy_placeholder;
+
+/**
+ * Copy for About > News
+ */
+$about_news = $longer_copy_placeholder;
 
 /*
  * Admissions Copy follows Please use paragraph tags; <em> for emphasis and consistency; <a href... with alt and title attributes ok. Please no font, div, span, style elements. Images would be unanticipated.
@@ -90,9 +112,14 @@ $admissions_open_house_copy = $longer_copy_placeholder;
 $admissions_tours_copy = $longer_copy_placeholder;
 
 /**
- * Copy for admissions > vistits
+ * Copy for admissions > visits
  */
 $admissions_visits_copy = $longer_copy_placeholder;
+
+/**
+ * Copy for admissions > tours
+ */
+$admissions_process_copy = $longer_copy_placeholder;
 
 //------Student and Family Section Content
 

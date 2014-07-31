@@ -60,15 +60,7 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 
 <!-- Tabs -->
-<script type="text/javascript">
-    $( document ).ready()
-	$('#buttons a[href="#admissions"]').tab('show') // Select tab by name
-    $('#tours a[href="#tours"]').tab('show') // Select tab by name 
-    $('#visits a[href="#visits"]').tab('show') // Select tab by name  
-    $('#open-house-events a[href="#open-house-events"]').tab('show') // Select tab by name 
-    $('#admission-process a[href="#admissions-process"]').tab('show') // Select tab by name   
-</script>
-<!-- End Tabs -->
+
 <?php //write_bottom_padding(); ?>
 <?php //write_top_padding(); ?>
 </head>
@@ -273,6 +265,26 @@ require_once 'includes/metadata_functions.php';
     </div>
     <?php write_footer(); ?>
 
+    <!-- JS Depends -->
+    
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/underscore.js"></script>
+<script type="text/javascript" src="_static/doctools.js"></script>
+<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+<script type="text/javascript"
+    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
 
+<!-- Tabs -->
+<script type="text/javascript">
+    $( document ).ready()
+	$('#buttons a[href="#admissions"]').tab('show') // Select tab by name
+    $('#tours a[href="#tours"]').tab('show') // Select tab by name 
+    $('#visits a[href="#visits"]').tab('show') // Select tab by name  
+    $('#open-house-events a[href="#open-house-events"]').tab('show') // Select tab by name 
+    $('#admission-process a[href="#admissions-process"]').tab('show') // Select tab by name   
+</script>
+<!-- End Tabs -->
 </body>
 </html>

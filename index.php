@@ -36,46 +36,17 @@ require_once 'includes/metadata_functions.php';
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
 
-<!-- Tabs
-<script type="text/javascript">
-    $( document ).ready()
-	$('#buttons a[href="#buttons"]').tab('show') // Select tab by name
-    $('#contents a[href="#contents"]').tab('show') // Select tab by name 
-    $('#contact a[href="#contact"]').tab('show') // Select tab by name  
 
-</script>    
-<!-- End Tabs -->
 
 <!-- FontAwesome Resources -->
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 
 
-<!-- jQuery Resources -->
-<link rel="stylesheet"
-    href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<link rel="stylesheet" href="css/chelsea.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 
-<script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.php',
-        HAS_SOURCE:  true
-      };
-    </script>
-<script type="text/javascript" src="js/tabs.min.js"></script>
-<script type="text/javascript" src="_static/jquery.js"></script>
-<script type="text/javascript" src="_static/underscore.js"></script>
-<script type="text/javascript" src="_static/doctools.js"></script>
-<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-<script type="text/javascript"
-    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+
+
+
 <!-- <link rel="author" title="About these documents" href="#" />
     <link rel="top" title="Chelsea School Mobile" href="index.php" />
     <link rel="next" title="Meet Chelsea School" href="meet.php" />
@@ -338,6 +309,32 @@ require_once 'includes/metadata_functions.php';
     </p>
   </div>
     </footer>-->
+<!-- Javascript Depends -->
+<script type="text/javascript" src="js/tabs.min.js"></script>
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/underscore.js"></script>
+<script type="text/javascript" src="_static/doctools.js"></script>
+<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+<script type="text/javascript"
+    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
 
+<!-- jQuery Resources -->
+<link rel="stylesheet"
+    href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="css/chelsea.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<!-- Tabs
+<script type="text/javascript">
+    $( document ).ready()
+	$('#buttons a[href="#buttons"]').tab('show') // Select tab by name
+    $('#contents a[href="#contents"]').tab('show') // Select tab by name 
+    $('#contact a[href="#contact"]').tab('show') // Select tab by name  
+
+</script>    
+<!-- End Tabs -->
 </body>
 </html>

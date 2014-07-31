@@ -37,22 +37,7 @@ require_once 'includes/metadata_functions.php';
     rel="stylesheet">
 
 
-<!-- jQuery Resources -->
-<link rel="stylesheet"
-    href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<link rel="stylesheet" href="css/chelsea.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
-<script type="text/javascript" src="js/tabs.min.js"></script>
-<script type="text/javascript" src="_static/jquery.js"></script>
-<script type="text/javascript" src="_static/underscore.js"></script>
-<script type="text/javascript" src="_static/doctools.js"></script>
-<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-<script type="text/javascript"
-    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
 
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -91,11 +76,27 @@ require_once 'includes/metadata_functions.php';
 <div class="col-xs-4 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="https://plus.google.com/+ChelseaSchoolHyattsville/" title="Chelsea on plus.google" alt="google+" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></p></a>
 </div>
 <!-- column 6 -->
-<div class="col-xs-4 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="https://github.com/orgs/ChelseaSchool/dashboard" title="Chelsea on github" alt="github" target="_blank"><i class="fa fa-github fa-3x"></i></a></p></a>
+<div class="col-xs-4 placeholder"><p><a type="button" class="btn btn-lg btn-default" href="https://github.com/orgs/ChelseaSchool" title="Chelsea on github" alt="github" target="_blank"><i class="fa fa-github fa-3x"></i></a></p></a>
 
 </div>
 
 </div>
 </div>
 
+<!-- jQuery Resources -->
+<link rel="stylesheet"
+    href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="css/chelsea.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<script type="text/javascript" src="js/tabs.min.js"></script>
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/underscore.js"></script>
+<script type="text/javascript" src="_static/doctools.js"></script>
+<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+<script type="text/javascript"
+    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
 </body>

@@ -7,6 +7,7 @@
  *  * Meet students, faculty, board, administration
  *  @todo
  *  1. Perhaps add a staff tab
+ *  2. Fix tabs - they're not rendering correctly
  *
  */
 
@@ -34,24 +35,8 @@ require_once 'includes/metadata_functions.php';
 
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
-<script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.php',
-        HAS_SOURCE:  true
-      };
-    </script>
-<script type="text/javascript" src="js/tabs.min.js"></script>
-<script type="text/javascript" src="_static/jquery.js"></script>
-<script type="text/javascript" src="_static/underscore.js"></script>
-<script type="text/javascript" src="_static/doctools.js"></script>
-<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-<script type="text/javascript"
-    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+
+
 <link rel="author" title="About these documents" href="about.php" />
 <link rel="top" title="Chelsea School Mobile" href="index.php" />
 <link rel="next" title="Admissions" href="admissions.php" />
@@ -63,14 +48,7 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 
 
-<!-- Tabs -->
-<script type="text/javascript">
-    $( document ).ready()
-	$('#students a[href="#students"]').tab('show') // Select tab by name
-    $('#faculty a[href="#faculty"]').tab('show') // Select tab by name 
-    $('#board a[href="#board"]').tab('show') // Select tab by name   
-    $('#administration a[href="#administration"]').tab('show') // Select tab by name   
-    </script> 
+
     
   </head>
 <body>
@@ -83,9 +61,9 @@ require_once 'includes/metadata_functions.php';
 
                 <!-- Nav tabs -->
                 <div class="nav">
-                    <ul class="nav nav-tabs" role="tablist">
+                    <ul class="nav nav-tabs tab-list">
 
-                        <li><a href="#students" data-toggle="tab">Students</a></li>
+                        <li><a class="active" href="#students" data-toggle="tab">Students</a></li>
                         <li><a href="#faculty" data-toggle="tab">Faculty</a></li>
                         <li><a href="#board" data-toggle="tab">Board</a></li>
                         <li><a href="#administration" data-toggle="tab">Administration</a></li>
@@ -384,5 +362,26 @@ require_once 'includes/metadata_functions.php';
     </div>
     
     <?php write_footer(); ?>
+    
+<!-- JS Resources -->
+    
+<script type="text/javascript" src="js/tabs.min.js"></script>
+<script type="text/javascript" src="_static/jquery.js"></script>
+<script type="text/javascript" src="_static/underscore.js"></script>
+<script type="text/javascript" src="_static/doctools.js"></script>
+<script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+<script type="text/javascript"
+    src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+
+<!-- Tabs -->
+<script type="text/javascript">
+    $( document ).ready()
+	$('#students a[href="#students"]').tab('show') // Select tab by name
+    $('#faculty a[href="#faculty"]').tab('show') // Select tab by name 
+    $('#board a[href="#board"]').tab('show') // Select tab by name   
+    $('#administration a[href="#administration"]').tab('show') // Select tab by name   
+</script> 
 </body>
 </html>

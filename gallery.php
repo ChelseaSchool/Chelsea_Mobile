@@ -14,6 +14,7 @@
  * @author      Rik Goldman <rikgoldman@chelseaschool.edu>
  * @copyright   2014 Chelsea School
  * @license     http://www.gnu.org/licenses/gpl-2.0.html GPLv2
+ * @todo		Fix gallery (pic doesn't respond to click to change; doesn't automatically switch slides
  */
 
 /** 
@@ -36,15 +37,7 @@ require_once 'includes/metadata_functions.php';
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 <title>Chelsea School &mdash; Chelsea School Mobile</title>
 
-<script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.php',
-        HAS_SOURCE:  true
-      };
-    </script>
+
 
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -53,11 +46,7 @@ require_once 'includes/metadata_functions.php';
 <meta name="apple-mobile-web-app-capable" content="yes">
 <?php write_bottom_padding(); ?>
 <?php write_top_padding(); ?>
-  <script>
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-</script>
+
 </head>
 <body>
 <?php write_top_navbar(); ?>
@@ -135,5 +124,13 @@ require_once 'includes/metadata_functions.php';
     <!--  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="_static/js/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="./js/bootstrap.min.js"></script>-->
+
+<!-- JS Resources -->
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
 </body>
 </html>

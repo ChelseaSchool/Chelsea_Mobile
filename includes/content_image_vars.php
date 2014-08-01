@@ -135,18 +135,27 @@ $family_lunch_copy = $brief_copy_placeholder;
 /**
  * Explanation of Moodle Link
  */
-$moodle_summary = $brief_copy_placeholder;
+$moodle_summary = <<<EOF
+<p>Moodle, or <a href="http://Chelseapride.org" title="http://chelseapride.org">ChelseaPride.org</a>, is a course management system used by stuents and faculty at Chelsea School. Click the link to access Moodle.</p>
+EOF;
 
 /**
  * Explanation of Powerschool Link
  */
-$powerschool_summary = $brief_copy_placeholder;
+$powerschool_summary = <<<EOF
+<p>Students, guardians, parents are encouraged to log in to PowerSchool weekly to celebrate successes, anticipate difficulties, and develop strategies for continuing success.</p>
+EOF;
 
 /**
  * Copy above button to launch paypal modal
  */
 
 $lunch_summary = $brief_copy_placeholder;
+
+/**
+ * Copy about technology guide
+ */
+$technology_guide_summary = $brief_copy_placeholder;
 
 //--------Images for Gallery
 

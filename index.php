@@ -48,18 +48,6 @@ require_once 'includes/content_image_vars.php';
 
 
 
-
-
-
-
-<!-- <link rel="author" title="About these documents" href="#" />
-    <link rel="top" title="Chelsea School Mobile" href="index.php" />
-    <link rel="next" title="Meet Chelsea School" href="meet.php" />
-    <link rel="prev" title="Chelsea School" href="index.php" />
-    <link rel="author" title="About these documents" href="about.php" />
-    <link rel="top" title="Chelsea School Mobile" href="#" />
-    <link rel="next" title="About Chelsea School" href="about.php" />-->
-
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport'
@@ -80,15 +68,7 @@ require_once 'includes/content_image_vars.php';
 <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!--     <!-- Nav tabs
-<div class="nav">
-	<ul class="nav nav-tabs">
- 		 
- 		 <li class="active"><a href="#buttons" data-toggle="tab">Main Menu</a></li>
- 		 <li><a href="#contents" data-toggle="tab">Contents</a></li>
- 		 <li><a href="#contact" data-toggle="tab">Contact</a></li>	  
-	</ul>
-</div>-->
+
                 <!-- end tabs -->
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">

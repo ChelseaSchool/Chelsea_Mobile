@@ -20,6 +20,9 @@ require_once 'includes/navigation_functions.php';
  */
 require_once 'includes/metadata_functions.php';
 
+/**
+ * Variables for copy and image placeholders
+ */
 require_once 'includes/content_image_vars.php';
 ?>
 
@@ -67,8 +70,7 @@ require_once 'includes/content_image_vars.php';
     $('.carousel').carousel();
   });
 </script>
-<?php //write_bottom_padding(); ?>
-<?php //write_top_padding(); ?>
+
 <link rel="shortcut icon" href="favicon.ico">
   </head>
 <body>
@@ -262,7 +264,7 @@ require_once 'includes/content_image_vars.php';
                             <a data-toggle="collapse"
                                 data-parent="#accordion"
                                 href="#collapseThree">
-                                <p>Contact</p>
+                                Contact
                             </a>
                         </h4>
                     </div>
@@ -278,7 +280,7 @@ require_once 'includes/content_image_vars.php';
                             <p>
                                 <a href="tel:+12404672100">1-240-467-2100</a>
                             </p>
-                            </h4>
+                            
                         </div>
                         <div id="collapseThree"
                             class="panel-collapse collapse in"></div>
@@ -288,7 +290,7 @@ require_once 'includes/content_image_vars.php';
             </div>
         </div>
     </div>
-
+</div>
 
 
 

@@ -19,6 +19,8 @@ require_once 'includes/navigation_functions.php';
  * Prints metadata for html head - currently not used.
  */
 require_once 'includes/metadata_functions.php';
+
+require_once 'includes/content_image_vars.php';
 ?>
 
 <!DOCTYPE html>
@@ -117,7 +119,7 @@ require_once 'includes/metadata_functions.php';
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img class="placeholder" src="images/logo-v.jpg" alt="Greater Expectations" title="Chelsea School: Greater Expectations">
+      <img class="placeholder" src="<?php echo $img_gallery_1; ?>" alt="Greater Expectations" title="Chelsea School: Greater Expectations">
       
     </div>
     

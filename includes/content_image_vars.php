@@ -163,7 +163,7 @@ $technology_guide_summary = $brief_copy_placeholder;
  * First image for bootstrap "carousel" on index.php: intended as logo
  */
 
-$img_gallery_1 = "../images/logo-v.jpg";
+$img_gallery_1 = "images/logo-v.jpg";
 
 /**
  * Second image for bootstrap "carousel" on index.php

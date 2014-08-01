@@ -106,9 +106,9 @@ require_once 'includes/content_image_vars.php';
                     </h2>
                     <p>
                         Moodle, or <a href="http://chelseapride.org"
-                            title="Moodle">Chelseapride.org</a>, is a
+                            title="Moodle" alt="Moodle">Chelseapride.org</a>, is a
                         course management system used by stuents and
-                        faculty at Chelsea School. Click the links to
+                        faculty at Chelsea School. Click the link to
                         access Moodle.
                     </p>
                 

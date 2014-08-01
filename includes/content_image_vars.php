@@ -16,6 +16,9 @@
  * @todo        Decide whether every section needs "sticky" copy 
  */
 
+
+//**************Placeholder Definitions
+
 /**
  * Vertical Placeholder dimension
  *   
@@ -102,7 +105,7 @@ $admissions_sticky_copy = $brief_copy_placeholder;
 /**
  * Admissions copy for adminissions > Open House Events
  *
- * @todo More variables for copy for all admissions pages
+ * 
  */
 $admissions_open_house_copy = $longer_copy_placeholder;
 
@@ -128,6 +131,22 @@ $admissions_process_copy = $longer_copy_placeholder;
  */
 
 $family_lunch_copy = $brief_copy_placeholder;
+
+/**
+ * Explanation of Moodle Link
+ */
+$moodle_summary = $brief_copy_placeholder;
+
+/**
+ * Explanation of Powerschool Link
+ */
+$powerschool_summary = $brief_copy_placeholder;
+
+/**
+ * Copy above button to launch paypal modal
+ */
+
+$lunch_summary = $brief_copy_placeholder;
 
 //--------Images for Gallery
 

@@ -130,7 +130,7 @@ require_once 'includes/content_image_vars.php';
       
     </div>
      <div class="item">
-     <img clas="placeholder" src="http://placehold.it/300x150" alt="Promo Placeholder" title="Chelsea School: Promo Shot">
+     <img class="placeholder" src="http://placehold.it/300x150" alt="Promo Placeholder" title="Chelsea School: Promo Shot">
      </div> 
           <div class="item">
       <img class="placeholder" src="http://placehold.it/300x150" alt="Promo Placeholder" title="Chelsea School: Promo Shot">
@@ -236,7 +236,7 @@ require_once 'includes/content_image_vars.php';
                                 <!--End column-->
                             </div>
                             <!--end row-->
-                            </h4>
+                            
                         </div>
                         <div id="collapseTwo"
                             class="panel-collapse collapse in"></div>
